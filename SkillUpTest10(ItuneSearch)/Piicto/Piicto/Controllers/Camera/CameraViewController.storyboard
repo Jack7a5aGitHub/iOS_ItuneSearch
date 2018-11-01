@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="eB6-j3-5Xe">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Camera View Controller-->
+        <scene sceneID="d5q-jg-hGu">
+            <objects>
+                <viewController storyboardIdentifier="CameraViewController" id="eB6-j3-5Xe" customClass="CameraViewController" customModule="Piicto" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tQH-62-ffL">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p7D-gJ-vpN">
+                                <rect key="frame" x="0.0" y="567" width="375" height="100"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pRF-gI-5nb">
+                                        <rect key="frame" x="8" y="28" width="45" height="45"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="45" id="QAp-88-Cdg"/>
+                                            <constraint firstAttribute="height" constant="45" id="WCO-wA-ZzI"/>
+                                        </constraints>
+                                        <state key="normal" backgroundImage="setting_return_bt"/>
+                                        <connections>
+                                            <action selector="didTapBack:" destination="eB6-j3-5Xe" eventType="touchUpInside" id="U0d-2Y-1NK"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tkI-4R-gtx" customClass="SwiftyCamButton" customModule="SwiftyCam">
+                                        <rect key="frame" x="137.5" y="0.5" width="100" height="100"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="100" id="Tl8-Qh-zPu"/>
+                                            <constraint firstAttribute="height" constant="100" id="zQv-Ok-IiA"/>
+                                        </constraints>
+                                        <state key="normal" image="top_camera_bt"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="IKY-N1-Hik"/>
+                                    <constraint firstItem="tkI-4R-gtx" firstAttribute="centerX" secondItem="p7D-gJ-vpN" secondAttribute="centerX" id="b9x-hf-Ryp"/>
+                                    <constraint firstItem="tkI-4R-gtx" firstAttribute="centerY" secondItem="p7D-gJ-vpN" secondAttribute="centerY" id="gZp-eq-7IE"/>
+                                    <constraint firstItem="pRF-gI-5nb" firstAttribute="leading" secondItem="p7D-gJ-vpN" secondAttribute="leading" constant="8" id="pjB-xJ-bye"/>
+                                    <constraint firstItem="pRF-gI-5nb" firstAttribute="centerY" secondItem="p7D-gJ-vpN" secondAttribute="centerY" id="vQi-7x-zGG"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="p7D-gJ-vpN" firstAttribute="leading" secondItem="d8V-SN-6r0" secondAttribute="leading" id="HjA-S6-ztm"/>
+                            <constraint firstItem="p7D-gJ-vpN" firstAttribute="trailing" secondItem="d8V-SN-6r0" secondAttribute="trailing" id="smh-Bb-wZy"/>
+                            <constraint firstItem="p7D-gJ-vpN" firstAttribute="bottom" secondItem="d8V-SN-6r0" secondAttribute="bottom" id="zuE-hq-kkZ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="d8V-SN-6r0"/>
+                    </view>
+                    <connections>
+                        <outlet property="swiftyCamButton" destination="tkI-4R-gtx" id="bsl-W4-2uc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CRw-RS-vaI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="104.8" y="33.733133433283363"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="setting_return_bt" width="30" height="21"/>
+        <image name="top_camera_bt" width="81" height="81"/>
+    </resources>
+</document>

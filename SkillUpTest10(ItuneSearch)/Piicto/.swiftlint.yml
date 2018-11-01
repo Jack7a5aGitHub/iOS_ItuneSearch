@@ -1,0 +1,66 @@
+# 対象にするパス
+included:
+  - Piicto
+  - PiictoTests
+
+# 対象から除外するパス
+excluded:
+  - Pods
+  - Tests/SwiftLintFrameworkTests/Resources
+
+# 採用するopt-inルール
+opt_in_rules:
+  - closure_end_indentation
+  - closure_spacing
+  - conditional_returns_on_newline
+  - contains_over_first_not_nil
+  - empty_count
+  - explicit_init
+  - fatal_error_message
+  - file_header
+  - first_where
+  - force_unwrapping
+  - implicitly_unwrapped_optional
+  - object_literal
+  - operator_usage_whitespace
+  - overridden_super_call
+  - private_outlet
+  - redundant_nil_coalescing
+  - sorted_imports
+  - switch_case_on_newline
+  - unneeded_parentheses_in_closure_argument
+  - vertical_parameter_alignment_on_call
+
+file_header:
+  required_pattern: |
+                    \/\/
+                    \/\/  .*\.swift
+                    \/\/  .*?
+                    \/\/
+                    \/\/  Created by .*? on \d{1,4}\/\d{1,2}\/\d{1,2}\.
+                    \/\/  Copyright © \d{4}.*? .*?\. All rights reserved\.
+                    \/\/
+
+# ファイルヘッダのサンプル
+#                    //
+#                    //  AppDelegate.swift
+#                    //  Piicto
+#                    //
+#                    //  Created by OkuderaYuki on 2018/01/06.
+#                    //  Copyright © 2018年 SmartTech Ventures Inc. All rights reserved.
+#                    //
+
+file_length: 600
+line_length: 120
+number_separator:
+  minimum_length: 5
+variable_name_min_length:
+  - 3
+  - 2
+force_cast: error
+force_try: error
+
+# 無効にするルール
+disabled_rules:
+  - leading_whitespace
+  - trailing_whitespace

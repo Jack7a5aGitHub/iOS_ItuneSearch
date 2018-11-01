@@ -1,0 +1,6 @@
+framework module Pods_SkillUpTest10_ItuneSearch_UITests {
+  umbrella header "Pods-SkillUpTest10(ItuneSearch)UITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

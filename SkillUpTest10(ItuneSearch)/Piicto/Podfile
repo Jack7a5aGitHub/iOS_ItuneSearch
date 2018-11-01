@@ -1,0 +1,38 @@
+use_frameworks!
+platform :ios, '10.0'
+
+def install_pods
+  pod 'Firebase/Core'
+  pod 'Firebase/Database'
+  pod 'Firebase/Crash'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Storage'
+  pod 'Firebase/Messaging'
+  pod 'FacebookCore'
+  pod 'FacebookLogin'
+end
+
+target 'Piicto' do
+
+  # Pods for Piicto
+  install_pods
+
+  target 'PiictoTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+end
+
+target 'Piicto-Dev' do
+
+  # Pods for Piicto-Dev
+  install_pods
+
+end
+
+target 'Piicto-Staging' do
+
+  # Pods for Piicto-Staging
+  install_pods
+
+end

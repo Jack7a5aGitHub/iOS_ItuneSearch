@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Oee-N7-Lhm">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--New Send View Controller-->
+        <scene sceneID="sQU-Tu-NJJ">
+            <objects>
+                <viewController storyboardIdentifier="NewSendViewController" id="Oee-N7-Lhm" customClass="NewSendViewController" customModule="Piicto" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2Ej-F0-1Cx">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OUF-eK-he2">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="URP-Dc-my6">
+                                        <rect key="frame" x="42" y="168" width="290" height="330"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f8T-Tu-IAd">
+                                                <rect key="frame" x="0.0" y="0.0" width="290" height="90"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="290" id="Euc-Fz-0bv"/>
+                                                    <constraint firstAttribute="height" constant="90" id="oWb-Lx-uu4"/>
+                                                </constraints>
+                                                <state key="normal" backgroundImage="sns_instagram"/>
+                                                <connections>
+                                                    <action selector="didTapInstagramButton:" destination="Oee-N7-Lhm" eventType="touchUpInside" id="xXw-cR-55o"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6NK-RQ-y9e">
+                                                <rect key="frame" x="0.0" y="120" width="290" height="90"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="90" id="cci-31-ssK"/>
+                                                </constraints>
+                                                <state key="normal" backgroundImage="sns_facebook"/>
+                                                <connections>
+                                                    <action selector="didTapFacebookButton:" destination="Oee-N7-Lhm" eventType="touchUpInside" id="98r-2v-bCv"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NBs-pt-RuZ">
+                                                <rect key="frame" x="0.0" y="240" width="290" height="90"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="90" id="3dy-wg-MfH"/>
+                                                </constraints>
+                                                <state key="normal" backgroundImage="sns_Library"/>
+                                                <connections>
+                                                    <action selector="didTapLibraryButton:" destination="Oee-N7-Lhm" eventType="touchUpInside" id="ueV-kc-ibo"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="6NK-RQ-y9e" firstAttribute="height" secondItem="f8T-Tu-IAd" secondAttribute="height" id="3xc-Tp-NMt"/>
+                                            <constraint firstItem="NBs-pt-RuZ" firstAttribute="width" secondItem="6NK-RQ-y9e" secondAttribute="width" id="YfP-se-XaY"/>
+                                            <constraint firstItem="NBs-pt-RuZ" firstAttribute="height" secondItem="6NK-RQ-y9e" secondAttribute="height" id="cEz-km-Tin"/>
+                                            <constraint firstItem="6NK-RQ-y9e" firstAttribute="width" secondItem="f8T-Tu-IAd" secondAttribute="width" id="s9g-eU-cek"/>
+                                        </constraints>
+                                    </stackView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZPh-Sj-7D9">
+                                        <rect key="frame" x="137" y="563" width="100" height="100"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="100" id="IGp-uk-m8A"/>
+                                            <constraint firstAttribute="width" constant="100" id="Oap-zb-0gb"/>
+                                        </constraints>
+                                        <state key="normal" image="top_camera_bt"/>
+                                        <connections>
+                                            <action selector="didTapCameraButton:" destination="Oee-N7-Lhm" eventType="touchUpInside" id="AAu-fT-VcK"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.50355843320000004" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="ZPh-Sj-7D9" firstAttribute="centerX" secondItem="OUF-eK-he2" secondAttribute="centerX" id="BKD-9A-aID"/>
+                                    <constraint firstItem="URP-Dc-my6" firstAttribute="centerY" secondItem="OUF-eK-he2" secondAttribute="centerY" id="TRN-R3-R5u"/>
+                                    <constraint firstItem="URP-Dc-my6" firstAttribute="centerX" secondItem="OUF-eK-he2" secondAttribute="centerX" id="hDz-Mf-Fsz"/>
+                                    <constraint firstAttribute="bottom" secondItem="ZPh-Sj-7D9" secondAttribute="bottom" constant="4" id="ox9-1v-OHX"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="OUF-eK-he2" firstAttribute="height" secondItem="2Ej-F0-1Cx" secondAttribute="height" id="Xo5-4Z-0PZ"/>
+                            <constraint firstItem="OUF-eK-he2" firstAttribute="top" secondItem="2Ej-F0-1Cx" secondAttribute="top" id="bf9-2y-coe"/>
+                            <constraint firstItem="OUF-eK-he2" firstAttribute="width" secondItem="2Ej-F0-1Cx" secondAttribute="width" id="hnq-dd-e4Y"/>
+                            <constraint firstItem="OUF-eK-he2" firstAttribute="leading" secondItem="Ku2-dn-evP" secondAttribute="leading" id="s3u-yx-hot"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Ku2-dn-evP"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QhO-n2-aM7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="468" y="224.4377811094453"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="sns_Library" width="230" height="63"/>
+        <image name="sns_facebook" width="230" height="63"/>
+        <image name="sns_instagram" width="230" height="63"/>
+        <image name="top_camera_bt" width="81" height="81"/>
+    </resources>
+</document>

@@ -1,0 +1,15 @@
+//
+//  Localizable.strings
+//  SkillUpTest10(ItuneSearch)
+//
+//  Created by Jack Wong on 2018/04/14.
+//  Copyright © 2018 Jack. All rights reserved.
+//
+
+// MARK: - Alert Button
+"ALERT_OK" = "OK";
+
+// MARK: - Message
+"OFFLINE" = "通信環境の良い場所で再度お試しください。";
+"TIMEOUT" = "タイムアウトになりました。";
+"EMPTY_TEXT" = "歌手名または曲名を入力してください";

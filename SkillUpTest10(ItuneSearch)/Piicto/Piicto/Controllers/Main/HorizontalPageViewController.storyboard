@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="zUf-Nd-KPp">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Piicto Navigation Controller-->
+        <scene sceneID="auT-Tt-Yd3">
+            <objects>
+                <navigationController storyboardIdentifier="PiictoNavigationController" id="zUf-Nd-KPp" customClass="PiictoNavigationController" customModule="Piicto" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="71M-vv-SNU">
+                        <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="XDQ-Am-Evf" kind="relationship" relationship="rootViewController" id="SYv-fc-vlH"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="l1q-Fa-o5b" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-987" y="-169"/>
+        </scene>
+        <!--Horizontal Page View Controller-->
+        <scene sceneID="q7A-MP-jVe">
+            <objects>
+                <pageViewController storyboardIdentifier="HorizontalPageViewController" autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="XDQ-Am-Evf" customClass="HorizontalPageViewController" customModule="Piicto" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="7NP-9m-qDu">
+                        <barButtonItem key="rightBarButtonItem" image="configuration" id="tdf-sh-8fc">
+                            <connections>
+                                <action selector="transitionProfile:" destination="XDQ-Am-Evf" id="8gv-L0-UR7"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </pageViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6jJ-t1-bIl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-87" y="-170"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="configuration" width="23" height="23"/>
+    </resources>
+</document>

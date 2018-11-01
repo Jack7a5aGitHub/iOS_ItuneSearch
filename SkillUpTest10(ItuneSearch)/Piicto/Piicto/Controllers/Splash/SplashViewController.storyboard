@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="bKf-GW-7Yx">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Splash View Controller-->
+        <scene sceneID="Rsr-C0-gwN">
+            <objects>
+                <viewController id="bKf-GW-7Yx" customClass="SplashViewController" customModule="Piicto" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YsB-Dm-Ng7">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash_logo" translatesAutoresizingMaskIntoConstraints="NO" id="njf-nZ-KSS">
+                                <rect key="frame" x="107" y="334" width="200" height="68"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="68" id="ds2-Me-Qzg"/>
+                                    <constraint firstAttribute="width" constant="200" id="kr9-VT-bTn"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright©️2017. Yudo inc. All rights Reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qF6-EL-FKn">
+                                <rect key="frame" x="20" y="682.66666666666663" width="374" height="13.333333333333371"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="njf-nZ-KSS" firstAttribute="centerY" secondItem="YsB-Dm-Ng7" secondAttribute="centerY" id="NA0-lU-y5Y"/>
+                            <constraint firstItem="TWk-sr-wSv" firstAttribute="trailing" secondItem="qF6-EL-FKn" secondAttribute="trailing" constant="20" id="eEQ-xk-Wzt"/>
+                            <constraint firstItem="njf-nZ-KSS" firstAttribute="centerX" secondItem="YsB-Dm-Ng7" secondAttribute="centerX" id="jYh-bG-awy"/>
+                            <constraint firstItem="TWk-sr-wSv" firstAttribute="bottom" secondItem="qF6-EL-FKn" secondAttribute="bottom" constant="40" id="jy5-nA-Fbt"/>
+                            <constraint firstItem="qF6-EL-FKn" firstAttribute="leading" secondItem="TWk-sr-wSv" secondAttribute="leading" constant="20" id="t2z-8X-STE"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="TWk-sr-wSv"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d49-WI-IzJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="492.75362318840581" y="342.39130434782612"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="splash_logo" width="158" height="37"/>
+    </resources>
+</document>

@@ -1,0 +1,6 @@
+framework module Pods_Piicto_Staging {
+  umbrella header "Pods-Piicto-Staging-umbrella.h"
+
+  export *
+  module * { export * }
+}

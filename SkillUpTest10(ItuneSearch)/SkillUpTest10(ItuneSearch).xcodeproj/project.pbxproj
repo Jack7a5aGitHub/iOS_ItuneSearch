@@ -1,0 +1,1029 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A11AF74205E4B42008F95BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A11AF73205E4B42008F95BD /* AppDelegate.swift */; };
+		0A11AF7B205E4B42008F95BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A11AF7A205E4B42008F95BD /* Assets.xcassets */; };
+		0A11AF7E205E4B42008F95BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A11AF7C205E4B42008F95BD /* LaunchScreen.storyboard */; };
+		0A11AF94205E4B43008F95BD /* SkillUpTest10_ItuneSearch_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A11AF93205E4B43008F95BD /* SkillUpTest10_ItuneSearch_UITests.swift */; };
+		0A11AFA6205E5A8C008F95BD /* ITunesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A11AFA5205E5A8C008F95BD /* ITunesViewController.swift */; };
+		0A11AFA8205E5A8C008F95BD /* ITunesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A11AFA5205E5A8C008F95BD /* ITunesViewController.swift */; };
+		0A11AFAA205E5AA0008F95BD /* ITunesSearch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A11AFA9205E5AA0008F95BD /* ITunesSearch.storyboard */; };
+		0A11AFAC205E5AA0008F95BD /* ITunesSearch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A11AFA9205E5AA0008F95BD /* ITunesSearch.storyboard */; };
+		0A11AFAE205E5AD7008F95BD /* ITunesSearchDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A11AFAD205E5AD7008F95BD /* ITunesSearchDto.swift */; };
+		0A11AFB0205E5AD7008F95BD /* ITunesSearchDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A11AFAD205E5AD7008F95BD /* ITunesSearchDto.swift */; };
+		0A11AFB2205E5AE6008F95BD /* ITunesSearchDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A11AFB1205E5AE6008F95BD /* ITunesSearchDao.swift */; };
+		0A11AFB4205E5AE6008F95BD /* ITunesSearchDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A11AFB1205E5AE6008F95BD /* ITunesSearchDao.swift */; };
+		0A11AFB6205E5B3F008F95BD /* ITunesSearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A11AFB5205E5B3F008F95BD /* ITunesSearchTableViewCell.swift */; };
+		0A11AFB8205E5B3F008F95BD /* ITunesSearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A11AFB5205E5B3F008F95BD /* ITunesSearchTableViewCell.swift */; };
+		0A11AFBE205E5B84008F95BD /* ITunesSearchProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A11AFBD205E5B84008F95BD /* ITunesSearchProvider.swift */; };
+		0A11AFC0205E5B84008F95BD /* ITunesSearchProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A11AFBD205E5B84008F95BD /* ITunesSearchProvider.swift */; };
+		0A11AFC7205E5DF2008F95BD /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A11AFC6205E5DF2008F95BD /* APIClient.swift */; };
+		0A11AFC9205E5DF2008F95BD /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A11AFC6205E5DF2008F95BD /* APIClient.swift */; };
+		0A11AFCB205E5E5E008F95BD /* NetworkConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A11AFCA205E5E5E008F95BD /* NetworkConnection.swift */; };
+		0A11AFCD205E5E5E008F95BD /* NetworkConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A11AFCA205E5E5E008F95BD /* NetworkConnection.swift */; };
+		0A11AFD4206090A9008F95BD /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A11AFD3206090A9008F95BD /* UIImageView.swift */; };
+		0A11AFD6206090AA008F95BD /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A11AFD3206090A9008F95BD /* UIImageView.swift */; };
+		0A11AFD92060EE28008F95BD /* ITunesViewController+TableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A11AFD82060EE28008F95BD /* ITunesViewController+TableViewDelegate.swift */; };
+		0A11AFDB2060EE28008F95BD /* ITunesViewController+TableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A11AFD82060EE28008F95BD /* ITunesViewController+TableViewDelegate.swift */; };
+		0A211D2020848C9000B69FB4 /* ITunesSearch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A11AFA9205E5AA0008F95BD /* ITunesSearch.storyboard */; };
+		0A211D2220848D1100B69FB4 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A211D2120848D1100B69FB4 /* Realm.framework */; };
+		0A211D2420848D1500B69FB4 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A211D2320848D1500B69FB4 /* RealmSwift.framework */; };
+		0A211D2520848D7B00B69FB4 /* ResultCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFE4E4E2081EA7B00A188B3 /* ResultCellTests.swift */; };
+		0A211D2620848D7B00B69FB4 /* ITunesSearchDaoTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFE4E4C2081EA6800A188B3 /* ITunesSearchDaoTest.swift */; };
+		0A211D2720848D7B00B69FB4 /* RealmImageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFE4E502081EA9700A188B3 /* RealmImageTests.swift */; };
+		0A211D2820848D7B00B69FB4 /* RealmImageDaoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFE4E522081EAA600A188B3 /* RealmImageDaoTests.swift */; };
+		0A211D2B20848D7B00B69FB4 /* AlertHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFE4E552081EC0900A188B3 /* AlertHelperTests.swift */; };
+		0A211D2C20848D7B00B69FB4 /* UTRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAF3F072068A650005FBD61 /* UTRealm.swift */; };
+		0A211D2D20848D7B00B69FB4 /* DummyResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFE4E452081E34B00A188B3 /* DummyResponse.swift */; };
+		0A211D2E20848D9000B69FB4 /* String+Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAF3F0B2068A693005FBD61 /* String+Path.swift */; };
+		0A211D2F20848D9000B69FB4 /* Date+ToStr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAF3F0F2068A6B9005FBD61 /* Date+ToStr.swift */; };
+		0AACB1072070F450007C92E5 /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AACB1062070F450007C92E5 /* AlertHelper.swift */; };
+		0AACB1092070F450007C92E5 /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AACB1062070F450007C92E5 /* AlertHelper.swift */; };
+		0AAF3EF72067B1D0005FBD61 /* ITunesTempImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAF3EF62067B1D0005FBD61 /* ITunesTempImage.swift */; };
+		0AAF3EF92067B1D0005FBD61 /* ITunesTempImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAF3EF62067B1D0005FBD61 /* ITunesTempImage.swift */; };
+		0AAF3EFB2067B1E4005FBD61 /* ITunesTempImageDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAF3EFA2067B1E4005FBD61 /* ITunesTempImageDao.swift */; };
+		0AAF3EFD2067B1E4005FBD61 /* ITunesTempImageDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAF3EFA2067B1E4005FBD61 /* ITunesTempImageDao.swift */; };
+		0AAF3EFF2067B48E005FBD61 /* RealmDaoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAF3EFE2067B48E005FBD61 /* RealmDaoHelper.swift */; };
+		0AAF3F012067B48E005FBD61 /* RealmDaoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAF3EFE2067B48E005FBD61 /* RealmDaoHelper.swift */; };
+		0AAF3F032067B54C005FBD61 /* BuildTargetChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAF3F022067B54C005FBD61 /* BuildTargetChecker.swift */; };
+		0AAF3F052067B54C005FBD61 /* BuildTargetChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAF3F022067B54C005FBD61 /* BuildTargetChecker.swift */; };
+		0AAF3F082068A650005FBD61 /* UTRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAF3F072068A650005FBD61 /* UTRealm.swift */; };
+		0AAF3F0A2068A650005FBD61 /* UTRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAF3F072068A650005FBD61 /* UTRealm.swift */; };
+		0AAF3F0C2068A693005FBD61 /* String+Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAF3F0B2068A693005FBD61 /* String+Path.swift */; };
+		0AAF3F0E2068A693005FBD61 /* String+Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAF3F0B2068A693005FBD61 /* String+Path.swift */; };
+		0AAF3F102068A6B9005FBD61 /* Date+ToStr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAF3F0F2068A6B9005FBD61 /* Date+ToStr.swift */; };
+		0AAF3F122068A6B9005FBD61 /* Date+ToStr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAF3F0F2068A6B9005FBD61 /* Date+ToStr.swift */; };
+		0AAF3F142068A6DD005FBD61 /* String+Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAF3F132068A6DD005FBD61 /* String+Localized.swift */; };
+		0AAF3F162068A6DD005FBD61 /* String+Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAF3F132068A6DD005FBD61 /* String+Localized.swift */; };
+		0AFE4E442081E2B000A188B3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0AFE4E432081E2B000A188B3 /* Localizable.strings */; };
+		1AFE7D2696E3E99776EDBF77 /* Pods_SkillUpTest10_ItuneSearch_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 961FD70EDF0C20F90FEF1462 /* Pods_SkillUpTest10_ItuneSearch_.framework */; };
+		1FED4F4FD3158464B676466C /* Pods_SkillUpTest10_ItuneSearch_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2210E7D32F5A2E0E8E46EDBC /* Pods_SkillUpTest10_ItuneSearch_Tests.framework */; };
+		FD7E09FE653E2D7B0A275D6A /* Pods_SkillUpTest10_ItuneSearch_UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14274BC553F5EEB2F9D4CDFC /* Pods_SkillUpTest10_ItuneSearch_UITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A11AF85205E4B43008F95BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A11AF68205E4B42008F95BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A11AF6F205E4B42008F95BD;
+			remoteInfo = "SkillUpTest10(ItuneSearch)";
+		};
+		0A11AF90205E4B43008F95BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A11AF68205E4B42008F95BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A11AF6F205E4B42008F95BD;
+			remoteInfo = "SkillUpTest10(ItuneSearch)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A11AF70205E4B42008F95BD /* SkillUpTest10(ItuneSearch).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SkillUpTest10(ItuneSearch).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A11AF73205E4B42008F95BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0A11AF7A205E4B42008F95BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A11AF7D205E4B42008F95BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0A11AF7F205E4B42008F95BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A11AF84205E4B43008F95BD /* SkillUpTest10(ItuneSearch)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SkillUpTest10(ItuneSearch)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A11AF88205E4B43008F95BD /* SkillUpTest10_ItuneSearch_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillUpTest10_ItuneSearch_Tests.swift; sourceTree = "<group>"; };
+		0A11AF8A205E4B43008F95BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A11AF8F205E4B43008F95BD /* SkillUpTest10(ItuneSearch)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SkillUpTest10(ItuneSearch)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A11AF93205E4B43008F95BD /* SkillUpTest10_ItuneSearch_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillUpTest10_ItuneSearch_UITests.swift; sourceTree = "<group>"; };
+		0A11AF95205E4B43008F95BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A11AFA5205E5A8C008F95BD /* ITunesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITunesViewController.swift; sourceTree = "<group>"; };
+		0A11AFA9205E5AA0008F95BD /* ITunesSearch.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ITunesSearch.storyboard; sourceTree = "<group>"; };
+		0A11AFAD205E5AD7008F95BD /* ITunesSearchDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITunesSearchDto.swift; sourceTree = "<group>"; };
+		0A11AFB1205E5AE6008F95BD /* ITunesSearchDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITunesSearchDao.swift; sourceTree = "<group>"; };
+		0A11AFB5205E5B3F008F95BD /* ITunesSearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITunesSearchTableViewCell.swift; sourceTree = "<group>"; };
+		0A11AFBD205E5B84008F95BD /* ITunesSearchProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITunesSearchProvider.swift; sourceTree = "<group>"; };
+		0A11AFC6205E5DF2008F95BD /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		0A11AFCA205E5E5E008F95BD /* NetworkConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConnection.swift; sourceTree = "<group>"; };
+		0A11AFD3206090A9008F95BD /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		0A11AFD82060EE28008F95BD /* ITunesViewController+TableViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ITunesViewController+TableViewDelegate.swift"; sourceTree = "<group>"; };
+		0A211D2120848D1100B69FB4 /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A211D2320848D1500B69FB4 /* RealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AACB1062070F450007C92E5 /* AlertHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertHelper.swift; sourceTree = "<group>"; };
+		0AAF3EF62067B1D0005FBD61 /* ITunesTempImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITunesTempImage.swift; sourceTree = "<group>"; };
+		0AAF3EFA2067B1E4005FBD61 /* ITunesTempImageDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITunesTempImageDao.swift; sourceTree = "<group>"; };
+		0AAF3EFE2067B48E005FBD61 /* RealmDaoHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmDaoHelper.swift; sourceTree = "<group>"; };
+		0AAF3F022067B54C005FBD61 /* BuildTargetChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildTargetChecker.swift; sourceTree = "<group>"; };
+		0AAF3F072068A650005FBD61 /* UTRealm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UTRealm.swift; path = "SkillUpTest10(ItuneSearch)/Helper/UTRealm.swift"; sourceTree = SOURCE_ROOT; };
+		0AAF3F0B2068A693005FBD61 /* String+Path.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Path.swift"; sourceTree = "<group>"; };
+		0AAF3F0F2068A6B9005FBD61 /* Date+ToStr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+ToStr.swift"; sourceTree = "<group>"; };
+		0AAF3F132068A6DD005FBD61 /* String+Localized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Localized.swift"; sourceTree = "<group>"; };
+		0AFE4E432081E2B000A188B3 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		0AFE4E452081E34B00A188B3 /* DummyResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyResponse.swift; sourceTree = "<group>"; };
+		0AFE4E4C2081EA6800A188B3 /* ITunesSearchDaoTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITunesSearchDaoTest.swift; sourceTree = "<group>"; };
+		0AFE4E4E2081EA7B00A188B3 /* ResultCellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultCellTests.swift; sourceTree = "<group>"; };
+		0AFE4E502081EA9700A188B3 /* RealmImageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmImageTests.swift; sourceTree = "<group>"; };
+		0AFE4E522081EAA600A188B3 /* RealmImageDaoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmImageDaoTests.swift; sourceTree = "<group>"; };
+		0AFE4E552081EC0900A188B3 /* AlertHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertHelperTests.swift; sourceTree = "<group>"; };
+		14274BC553F5EEB2F9D4CDFC /* Pods_SkillUpTest10_ItuneSearch_UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkillUpTest10_ItuneSearch_UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1647AAF192F3FEAC0E365609 /* Pods-SkillUpTest10(ItuneSearch)Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkillUpTest10(ItuneSearch)Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SkillUpTest10(ItuneSearch)Tests/Pods-SkillUpTest10(ItuneSearch)Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2210E7D32F5A2E0E8E46EDBC /* Pods_SkillUpTest10_ItuneSearch_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkillUpTest10_ItuneSearch_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		355A039CE1118B02C7309E7E /* Pods-SkillUpTest10(ItuneSearch)UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkillUpTest10(ItuneSearch)UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SkillUpTest10(ItuneSearch)UITests/Pods-SkillUpTest10(ItuneSearch)UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6913DD665E5D0DEFC6D91B04 /* Pods-SkillUpTest10(ItuneSearch)UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkillUpTest10(ItuneSearch)UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SkillUpTest10(ItuneSearch)UITests/Pods-SkillUpTest10(ItuneSearch)UITests.release.xcconfig"; sourceTree = "<group>"; };
+		819C8D3B676CBA4EAE5D082A /* Pods-SkillUpTest10(ItuneSearch)Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkillUpTest10(ItuneSearch)Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SkillUpTest10(ItuneSearch)Tests/Pods-SkillUpTest10(ItuneSearch)Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		961FD70EDF0C20F90FEF1462 /* Pods_SkillUpTest10_ItuneSearch_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkillUpTest10_ItuneSearch_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1B368C2DEEBA4CF76CBEA99 /* Pods-SkillUpTest10(ItuneSearch).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkillUpTest10(ItuneSearch).release.xcconfig"; path = "Pods/Target Support Files/Pods-SkillUpTest10(ItuneSearch)/Pods-SkillUpTest10(ItuneSearch).release.xcconfig"; sourceTree = "<group>"; };
+		D4977D831CC9FDCEC932AF77 /* Pods-SkillUpTest10(ItuneSearch).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkillUpTest10(ItuneSearch).debug.xcconfig"; path = "Pods/Target Support Files/Pods-SkillUpTest10(ItuneSearch)/Pods-SkillUpTest10(ItuneSearch).debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A11AF6D205E4B42008F95BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AFE7D2696E3E99776EDBF77 /* Pods_SkillUpTest10_ItuneSearch_.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A11AF81205E4B43008F95BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A211D2420848D1500B69FB4 /* RealmSwift.framework in Frameworks */,
+				0A211D2220848D1100B69FB4 /* Realm.framework in Frameworks */,
+				1FED4F4FD3158464B676466C /* Pods_SkillUpTest10_ItuneSearch_Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A11AF8C205E4B43008F95BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD7E09FE653E2D7B0A275D6A /* Pods_SkillUpTest10_ItuneSearch_UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A11AF67205E4B42008F95BD = {
+			isa = PBXGroup;
+			children = (
+				0A11AF72205E4B42008F95BD /* SkillUpTest10(ItuneSearch) */,
+				0A11AF87205E4B43008F95BD /* SkillUpTest10(ItuneSearch)Tests */,
+				0A11AF92205E4B43008F95BD /* SkillUpTest10(ItuneSearch)UITests */,
+				0A11AF71205E4B42008F95BD /* Products */,
+				6A1C8834C365028677AD5889 /* Pods */,
+				26075FF1CB05819182D0F044 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0A11AF71205E4B42008F95BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A11AF70205E4B42008F95BD /* SkillUpTest10(ItuneSearch).app */,
+				0A11AF84205E4B43008F95BD /* SkillUpTest10(ItuneSearch)Tests.xctest */,
+				0A11AF8F205E4B43008F95BD /* SkillUpTest10(ItuneSearch)UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A11AF72205E4B42008F95BD /* SkillUpTest10(ItuneSearch) */ = {
+			isa = PBXGroup;
+			children = (
+				0A11AFCE20609031008F95BD /* Extension */,
+				0A11AFC5205E5DD3008F95BD /* Helper */,
+				0A11AFC1205E5B8C008F95BD /* View */,
+				0A11AFC2205E5B97008F95BD /* Controller */,
+				0A11AFC3205E5BA4008F95BD /* Model */,
+				0A11AFC4205E5BB6008F95BD /* Other */,
+				0A11AF7F205E4B42008F95BD /* Info.plist */,
+			);
+			path = "SkillUpTest10(ItuneSearch)";
+			sourceTree = "<group>";
+		};
+		0A11AF87205E4B43008F95BD /* SkillUpTest10(ItuneSearch)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0AFE4E4B2081EA3300A188B3 /* Views */,
+				0AFE4E4A2081EA2C00A188B3 /* Models */,
+				0AFE4E472081E9FA00A188B3 /* Helper */,
+				0AAF3F062068A63D005FBD61 /* Common */,
+				0A11AF88205E4B43008F95BD /* SkillUpTest10_ItuneSearch_Tests.swift */,
+				0A11AF8A205E4B43008F95BD /* Info.plist */,
+			);
+			path = "SkillUpTest10(ItuneSearch)Tests";
+			sourceTree = "<group>";
+		};
+		0A11AF92205E4B43008F95BD /* SkillUpTest10(ItuneSearch)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				0A11AF93205E4B43008F95BD /* SkillUpTest10_ItuneSearch_UITests.swift */,
+				0A11AF95205E4B43008F95BD /* Info.plist */,
+			);
+			path = "SkillUpTest10(ItuneSearch)UITests";
+			sourceTree = "<group>";
+		};
+		0A11AFC1205E5B8C008F95BD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0A11AFBD205E5B84008F95BD /* ITunesSearchProvider.swift */,
+				0A11AFB5205E5B3F008F95BD /* ITunesSearchTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0A11AFC2205E5B97008F95BD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0A11AFD72060EDF6008F95BD /* Extensions */,
+				0A11AFA5205E5A8C008F95BD /* ITunesViewController.swift */,
+				0A11AFA9205E5AA0008F95BD /* ITunesSearch.storyboard */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0A11AFC3205E5BA4008F95BD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0AAF3EF520679C22005FBD61 /* Realm */,
+				0A11AFAD205E5AD7008F95BD /* ITunesSearchDto.swift */,
+				0A11AFB1205E5AE6008F95BD /* ITunesSearchDao.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0A11AFC4205E5BB6008F95BD /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				0A11AF73205E4B42008F95BD /* AppDelegate.swift */,
+				0A11AF7A205E4B42008F95BD /* Assets.xcassets */,
+				0A11AF7C205E4B42008F95BD /* LaunchScreen.storyboard */,
+				0AFE4E432081E2B000A188B3 /* Localizable.strings */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		0A11AFC5205E5DD3008F95BD /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				0A11AFC6205E5DF2008F95BD /* APIClient.swift */,
+				0A11AFCA205E5E5E008F95BD /* NetworkConnection.swift */,
+				0AAF3EFE2067B48E005FBD61 /* RealmDaoHelper.swift */,
+				0AAF3F022067B54C005FBD61 /* BuildTargetChecker.swift */,
+				0AACB1062070F450007C92E5 /* AlertHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		0A11AFCE20609031008F95BD /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0A11AFD3206090A9008F95BD /* UIImageView.swift */,
+				0AAF3F0B2068A693005FBD61 /* String+Path.swift */,
+				0AAF3F0F2068A6B9005FBD61 /* Date+ToStr.swift */,
+				0AAF3F132068A6DD005FBD61 /* String+Localized.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		0A11AFD72060EDF6008F95BD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0A11AFD82060EE28008F95BD /* ITunesViewController+TableViewDelegate.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0AAF3EF520679C22005FBD61 /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				0AAF3EF62067B1D0005FBD61 /* ITunesTempImage.swift */,
+				0AAF3EFA2067B1E4005FBD61 /* ITunesTempImageDao.swift */,
+			);
+			path = Realm;
+			sourceTree = "<group>";
+		};
+		0AAF3F062068A63D005FBD61 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				0AAF3F072068A650005FBD61 /* UTRealm.swift */,
+				0AFE4E452081E34B00A188B3 /* DummyResponse.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		0AFE4E472081E9FA00A188B3 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				0AFE4E552081EC0900A188B3 /* AlertHelperTests.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		0AFE4E4A2081EA2C00A188B3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0AFE4E4C2081EA6800A188B3 /* ITunesSearchDaoTest.swift */,
+				0AFE4E542081EAAB00A188B3 /* Realm */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0AFE4E4B2081EA3300A188B3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0AFE4E4E2081EA7B00A188B3 /* ResultCellTests.swift */,
+			);
+			name = Views;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		0AFE4E542081EAAB00A188B3 /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				0AFE4E502081EA9700A188B3 /* RealmImageTests.swift */,
+				0AFE4E522081EAA600A188B3 /* RealmImageDaoTests.swift */,
+			);
+			name = Realm;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		26075FF1CB05819182D0F044 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A211D2320848D1500B69FB4 /* RealmSwift.framework */,
+				0A211D2120848D1100B69FB4 /* Realm.framework */,
+				961FD70EDF0C20F90FEF1462 /* Pods_SkillUpTest10_ItuneSearch_.framework */,
+				2210E7D32F5A2E0E8E46EDBC /* Pods_SkillUpTest10_ItuneSearch_Tests.framework */,
+				14274BC553F5EEB2F9D4CDFC /* Pods_SkillUpTest10_ItuneSearch_UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A1C8834C365028677AD5889 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D4977D831CC9FDCEC932AF77 /* Pods-SkillUpTest10(ItuneSearch).debug.xcconfig */,
+				B1B368C2DEEBA4CF76CBEA99 /* Pods-SkillUpTest10(ItuneSearch).release.xcconfig */,
+				819C8D3B676CBA4EAE5D082A /* Pods-SkillUpTest10(ItuneSearch)Tests.debug.xcconfig */,
+				1647AAF192F3FEAC0E365609 /* Pods-SkillUpTest10(ItuneSearch)Tests.release.xcconfig */,
+				355A039CE1118B02C7309E7E /* Pods-SkillUpTest10(ItuneSearch)UITests.debug.xcconfig */,
+				6913DD665E5D0DEFC6D91B04 /* Pods-SkillUpTest10(ItuneSearch)UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A11AF6F205E4B42008F95BD /* SkillUpTest10(ItuneSearch) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A11AF98205E4B43008F95BD /* Build configuration list for PBXNativeTarget "SkillUpTest10(ItuneSearch)" */;
+			buildPhases = (
+				0DAE7D92F1A53ACE34B42594 /* [CP] Check Pods Manifest.lock */,
+				0A11AF6C205E4B42008F95BD /* Sources */,
+				0A11AF6D205E4B42008F95BD /* Frameworks */,
+				0A11AF6E205E4B42008F95BD /* Resources */,
+				45E10CA8153FE03DB6829F2C /* [CP] Embed Pods Frameworks */,
+				5103D3A14D9345ECDED8713A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SkillUpTest10(ItuneSearch)";
+			productName = "SkillUpTest10(ItuneSearch)";
+			productReference = 0A11AF70205E4B42008F95BD /* SkillUpTest10(ItuneSearch).app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A11AF83205E4B43008F95BD /* SkillUpTest10(ItuneSearch)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A11AF9B205E4B43008F95BD /* Build configuration list for PBXNativeTarget "SkillUpTest10(ItuneSearch)Tests" */;
+			buildPhases = (
+				6F9C3035675B616982F99749 /* [CP] Check Pods Manifest.lock */,
+				0A11AF80205E4B43008F95BD /* Sources */,
+				0A11AF81205E4B43008F95BD /* Frameworks */,
+				0A11AF82205E4B43008F95BD /* Resources */,
+				1192A466190438D6788F25D3 /* [CP] Embed Pods Frameworks */,
+				6D9E58FD3A27955B1A109FBB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A11AF86205E4B43008F95BD /* PBXTargetDependency */,
+			);
+			name = "SkillUpTest10(ItuneSearch)Tests";
+			productName = "SkillUpTest10(ItuneSearch)Tests";
+			productReference = 0A11AF84205E4B43008F95BD /* SkillUpTest10(ItuneSearch)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0A11AF8E205E4B43008F95BD /* SkillUpTest10(ItuneSearch)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A11AF9E205E4B43008F95BD /* Build configuration list for PBXNativeTarget "SkillUpTest10(ItuneSearch)UITests" */;
+			buildPhases = (
+				0FA0ACF684E6F04981F1A692 /* [CP] Check Pods Manifest.lock */,
+				0A11AF8B205E4B43008F95BD /* Sources */,
+				0A11AF8C205E4B43008F95BD /* Frameworks */,
+				0A11AF8D205E4B43008F95BD /* Resources */,
+				A1F39A5E1E233CDBA9B561E3 /* [CP] Embed Pods Frameworks */,
+				DE43D5663B54083BACE68504 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A11AF91205E4B43008F95BD /* PBXTargetDependency */,
+			);
+			name = "SkillUpTest10(ItuneSearch)UITests";
+			productName = "SkillUpTest10(ItuneSearch)UITests";
+			productReference = 0A11AF8F205E4B43008F95BD /* SkillUpTest10(ItuneSearch)UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A11AF68205E4B42008F95BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Jack;
+				TargetAttributes = {
+					0A11AF6F205E4B42008F95BD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					0A11AF83205E4B43008F95BD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0A11AF6F205E4B42008F95BD;
+					};
+					0A11AF8E205E4B43008F95BD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0A11AF6F205E4B42008F95BD;
+					};
+				};
+			};
+			buildConfigurationList = 0A11AF6B205E4B42008F95BD /* Build configuration list for PBXProject "SkillUpTest10(ItuneSearch)" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A11AF67205E4B42008F95BD;
+			productRefGroup = 0A11AF71205E4B42008F95BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A11AF6F205E4B42008F95BD /* SkillUpTest10(ItuneSearch) */,
+				0A11AF83205E4B43008F95BD /* SkillUpTest10(ItuneSearch)Tests */,
+				0A11AF8E205E4B43008F95BD /* SkillUpTest10(ItuneSearch)UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A11AF6E205E4B42008F95BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A11AF7E205E4B42008F95BD /* LaunchScreen.storyboard in Resources */,
+				0AFE4E442081E2B000A188B3 /* Localizable.strings in Resources */,
+				0A11AF7B205E4B42008F95BD /* Assets.xcassets in Resources */,
+				0A11AFAA205E5AA0008F95BD /* ITunesSearch.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A11AF82205E4B43008F95BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A211D2020848C9000B69FB4 /* ITunesSearch.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A11AF8D205E4B43008F95BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A11AFAC205E5AA0008F95BD /* ITunesSearch.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DAE7D92F1A53ACE34B42594 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SkillUpTest10(ItuneSearch)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0FA0ACF684E6F04981F1A692 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SkillUpTest10(ItuneSearch)UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1192A466190438D6788F25D3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SkillUpTest10(ItuneSearch)Tests/Pods-SkillUpTest10(ItuneSearch)Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45E10CA8153FE03DB6829F2C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SkillUpTest10(ItuneSearch)/Pods-SkillUpTest10(ItuneSearch)-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SkillUpTest10(ItuneSearch)/Pods-SkillUpTest10(ItuneSearch)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5103D3A14D9345ECDED8713A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SkillUpTest10(ItuneSearch)/Pods-SkillUpTest10(ItuneSearch)-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D9E58FD3A27955B1A109FBB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SkillUpTest10(ItuneSearch)Tests/Pods-SkillUpTest10(ItuneSearch)Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F9C3035675B616982F99749 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SkillUpTest10(ItuneSearch)Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1F39A5E1E233CDBA9B561E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SkillUpTest10(ItuneSearch)UITests/Pods-SkillUpTest10(ItuneSearch)UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE43D5663B54083BACE68504 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SkillUpTest10(ItuneSearch)UITests/Pods-SkillUpTest10(ItuneSearch)UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A11AF6C205E4B42008F95BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AAF3F142068A6DD005FBD61 /* String+Localized.swift in Sources */,
+				0AAF3EFB2067B1E4005FBD61 /* ITunesTempImageDao.swift in Sources */,
+				0A11AFB6205E5B3F008F95BD /* ITunesSearchTableViewCell.swift in Sources */,
+				0A11AFD4206090A9008F95BD /* UIImageView.swift in Sources */,
+				0A11AFC7205E5DF2008F95BD /* APIClient.swift in Sources */,
+				0AAF3F102068A6B9005FBD61 /* Date+ToStr.swift in Sources */,
+				0A11AFA6205E5A8C008F95BD /* ITunesViewController.swift in Sources */,
+				0AAF3F032067B54C005FBD61 /* BuildTargetChecker.swift in Sources */,
+				0A11AFBE205E5B84008F95BD /* ITunesSearchProvider.swift in Sources */,
+				0AACB1072070F450007C92E5 /* AlertHelper.swift in Sources */,
+				0A11AFCB205E5E5E008F95BD /* NetworkConnection.swift in Sources */,
+				0AAF3EFF2067B48E005FBD61 /* RealmDaoHelper.swift in Sources */,
+				0A11AF74205E4B42008F95BD /* AppDelegate.swift in Sources */,
+				0A11AFD92060EE28008F95BD /* ITunesViewController+TableViewDelegate.swift in Sources */,
+				0AAF3F0C2068A693005FBD61 /* String+Path.swift in Sources */,
+				0A11AFB2205E5AE6008F95BD /* ITunesSearchDao.swift in Sources */,
+				0A11AFAE205E5AD7008F95BD /* ITunesSearchDto.swift in Sources */,
+				0AAF3EF72067B1D0005FBD61 /* ITunesTempImage.swift in Sources */,
+				0AAF3F082068A650005FBD61 /* UTRealm.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A11AF80205E4B43008F95BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A211D2E20848D9000B69FB4 /* String+Path.swift in Sources */,
+				0A211D2F20848D9000B69FB4 /* Date+ToStr.swift in Sources */,
+				0A211D2520848D7B00B69FB4 /* ResultCellTests.swift in Sources */,
+				0A211D2620848D7B00B69FB4 /* ITunesSearchDaoTest.swift in Sources */,
+				0A211D2720848D7B00B69FB4 /* RealmImageTests.swift in Sources */,
+				0A211D2820848D7B00B69FB4 /* RealmImageDaoTests.swift in Sources */,
+				0A211D2B20848D7B00B69FB4 /* AlertHelperTests.swift in Sources */,
+				0A211D2C20848D7B00B69FB4 /* UTRealm.swift in Sources */,
+				0A211D2D20848D7B00B69FB4 /* DummyResponse.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A11AF8B205E4B43008F95BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AAF3F162068A6DD005FBD61 /* String+Localized.swift in Sources */,
+				0AAF3EFD2067B1E4005FBD61 /* ITunesTempImageDao.swift in Sources */,
+				0A11AFB8205E5B3F008F95BD /* ITunesSearchTableViewCell.swift in Sources */,
+				0A11AFD6206090AA008F95BD /* UIImageView.swift in Sources */,
+				0A11AFC9205E5DF2008F95BD /* APIClient.swift in Sources */,
+				0AAF3F122068A6B9005FBD61 /* Date+ToStr.swift in Sources */,
+				0A11AFA8205E5A8C008F95BD /* ITunesViewController.swift in Sources */,
+				0AAF3F052067B54C005FBD61 /* BuildTargetChecker.swift in Sources */,
+				0A11AFC0205E5B84008F95BD /* ITunesSearchProvider.swift in Sources */,
+				0AACB1092070F450007C92E5 /* AlertHelper.swift in Sources */,
+				0A11AFCD205E5E5E008F95BD /* NetworkConnection.swift in Sources */,
+				0AAF3F012067B48E005FBD61 /* RealmDaoHelper.swift in Sources */,
+				0A11AF94205E4B43008F95BD /* SkillUpTest10_ItuneSearch_UITests.swift in Sources */,
+				0A11AFDB2060EE28008F95BD /* ITunesViewController+TableViewDelegate.swift in Sources */,
+				0AAF3F0E2068A693005FBD61 /* String+Path.swift in Sources */,
+				0A11AFB4205E5AE6008F95BD /* ITunesSearchDao.swift in Sources */,
+				0A11AFB0205E5AD7008F95BD /* ITunesSearchDto.swift in Sources */,
+				0AAF3EF92067B1D0005FBD61 /* ITunesTempImage.swift in Sources */,
+				0AAF3F0A2068A650005FBD61 /* UTRealm.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A11AF86205E4B43008F95BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A11AF6F205E4B42008F95BD /* SkillUpTest10(ItuneSearch) */;
+			targetProxy = 0A11AF85205E4B43008F95BD /* PBXContainerItemProxy */;
+		};
+		0A11AF91205E4B43008F95BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A11AF6F205E4B42008F95BD /* SkillUpTest10(ItuneSearch) */;
+			targetProxy = 0A11AF90205E4B43008F95BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0A11AF7C205E4B42008F95BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A11AF7D205E4B42008F95BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A11AF96205E4B43008F95BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0A11AF97205E4B43008F95BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A11AF99205E4B43008F95BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4977D831CC9FDCEC932AF77 /* Pods-SkillUpTest10(ItuneSearch).debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PCCZJUYRT6;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				INFOPLIST_FILE = "SkillUpTest10(ItuneSearch)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jack.SkillUpTest10-ItuneSearch-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A11AF9A205E4B43008F95BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1B368C2DEEBA4CF76CBEA99 /* Pods-SkillUpTest10(ItuneSearch).release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PCCZJUYRT6;
+				INFOPLIST_FILE = "SkillUpTest10(ItuneSearch)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jack.SkillUpTest10-ItuneSearch-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0A11AF9C205E4B43008F95BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 819C8D3B676CBA4EAE5D082A /* Pods-SkillUpTest10(ItuneSearch)Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PCCZJUYRT6;
+				INFOPLIST_FILE = "SkillUpTest10(ItuneSearch)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jack.SkillUpTest10-ItuneSearch-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkillUpTest10(ItuneSearch).app/SkillUpTest10(ItuneSearch)";
+			};
+			name = Debug;
+		};
+		0A11AF9D205E4B43008F95BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1647AAF192F3FEAC0E365609 /* Pods-SkillUpTest10(ItuneSearch)Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PCCZJUYRT6;
+				INFOPLIST_FILE = "SkillUpTest10(ItuneSearch)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jack.SkillUpTest10-ItuneSearch-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkillUpTest10(ItuneSearch).app/SkillUpTest10(ItuneSearch)";
+			};
+			name = Release;
+		};
+		0A11AF9F205E4B43008F95BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 355A039CE1118B02C7309E7E /* Pods-SkillUpTest10(ItuneSearch)UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PCCZJUYRT6;
+				INFOPLIST_FILE = "SkillUpTest10(ItuneSearch)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jack.SkillUpTest10-ItuneSearch-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SkillUpTest10(ItuneSearch)";
+			};
+			name = Debug;
+		};
+		0A11AFA0205E4B43008F95BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6913DD665E5D0DEFC6D91B04 /* Pods-SkillUpTest10(ItuneSearch)UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PCCZJUYRT6;
+				INFOPLIST_FILE = "SkillUpTest10(ItuneSearch)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jack.SkillUpTest10-ItuneSearch-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SkillUpTest10(ItuneSearch)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A11AF6B205E4B42008F95BD /* Build configuration list for PBXProject "SkillUpTest10(ItuneSearch)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A11AF96205E4B43008F95BD /* Debug */,
+				0A11AF97205E4B43008F95BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A11AF98205E4B43008F95BD /* Build configuration list for PBXNativeTarget "SkillUpTest10(ItuneSearch)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A11AF99205E4B43008F95BD /* Debug */,
+				0A11AF9A205E4B43008F95BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A11AF9B205E4B43008F95BD /* Build configuration list for PBXNativeTarget "SkillUpTest10(ItuneSearch)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A11AF9C205E4B43008F95BD /* Debug */,
+				0A11AF9D205E4B43008F95BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A11AF9E205E4B43008F95BD /* Build configuration list for PBXNativeTarget "SkillUpTest10(ItuneSearch)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A11AF9F205E4B43008F95BD /* Debug */,
+				0A11AFA0205E4B43008F95BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A11AF68205E4B42008F95BD /* Project object */;
+}

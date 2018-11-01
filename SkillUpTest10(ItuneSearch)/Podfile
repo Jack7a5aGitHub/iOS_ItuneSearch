@@ -1,0 +1,24 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'SkillUpTest10(ItuneSearch)' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for SkillUpTest10(ItuneSearch)
+	pod 'Alamofire'
+	pod 'ReachabilitySwift'
+	pod 'Kingfisher'
+	pod 'RealmSwift'
+	pod 'SVProgressHUD'
+  target 'SkillUpTest10(ItuneSearch)Tests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'SkillUpTest10(ItuneSearch)UITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

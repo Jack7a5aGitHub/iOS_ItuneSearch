@@ -1,0 +1,2188 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C1A53448CA04E5CDAEF8981 /* Pods_PiictoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F19E672311314A3B74C0AD9 /* Pods_PiictoTests.framework */; };
+		455D4604201A024A00453B5F /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 455D4602201A024900453B5F /* FBSDKCoreKit.framework */; };
+		455D4605201A024A00453B5F /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 455D4603201A024900453B5F /* FBSDKLoginKit.framework */; };
+		455D4606201A025900453B5F /* FacebookCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 455D4608201A025900453B5F /* FacebookCore.framework */; };
+		455D4607201A025900453B5F /* FacebookLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 455D4609201A025900453B5F /* FacebookLogin.framework */; };
+		455D460B201A098800453B5F /* UIView+Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455D460A201A098800453B5F /* UIView+Animation.swift */; };
+		455D460C201A0A0800453B5F /* UIView+Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455D460A201A098800453B5F /* UIView+Animation.swift */; };
+		455D460F201A45A200453B5F /* UerInfomation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455D460E201A45A200453B5F /* UerInfomation.swift */; };
+		455D4610201A460700453B5F /* UerInfomation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455D460E201A45A200453B5F /* UerInfomation.swift */; };
+		455D4613201A4BA400453B5F /* InstagramAuthViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 455D4612201A4BA400453B5F /* InstagramAuthViewController.storyboard */; };
+		455D4615201A4BB800453B5F /* InstagramAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455D4614201A4BB800453B5F /* InstagramAuthViewController.swift */; };
+		455D4616201A4BC100453B5F /* InstagramAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455D4614201A4BB800453B5F /* InstagramAuthViewController.swift */; };
+		455D4617201A4BD000453B5F /* InstagramAuthViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 455D4612201A4BA400453B5F /* InstagramAuthViewController.storyboard */; };
+		459EBB202022B80700EC4437 /* InstagramAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459EBB1F2022B80700EC4437 /* InstagramAPI.swift */; };
+		459EBB212022B80700EC4437 /* InstagramAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459EBB1F2022B80700EC4437 /* InstagramAPI.swift */; };
+		459EBB222022B80700EC4437 /* InstagramAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459EBB1F2022B80700EC4437 /* InstagramAPI.swift */; };
+		459EBB242022B81D00EC4437 /* InstagramAPIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459EBB232022B81D00EC4437 /* InstagramAPIResponse.swift */; };
+		459EBB252022B81D00EC4437 /* InstagramAPIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459EBB232022B81D00EC4437 /* InstagramAPIResponse.swift */; };
+		459EBB262022B81D00EC4437 /* InstagramAPIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459EBB232022B81D00EC4437 /* InstagramAPIResponse.swift */; };
+		45A12BA3201C85B100419061 /* ProfilePageViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45A12BA2201C85B100419061 /* ProfilePageViewController.storyboard */; };
+		45A12BA5201C85C500419061 /* ProfilePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A12BA4201C85C500419061 /* ProfilePageViewController.swift */; };
+		45A12BA6201C8D6B00419061 /* ProfilePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A12BA4201C85C500419061 /* ProfilePageViewController.swift */; };
+		45A12BA7201C8D7900419061 /* ProfilePageViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45A12BA2201C85B100419061 /* ProfilePageViewController.storyboard */; };
+		45A12BE8201D8B7800419061 /* InfomationPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A12BE7201D8B7800419061 /* InfomationPageViewController.swift */; };
+		45A12BEA201D8B8400419061 /* InfomationPageViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45A12BE9201D8B8400419061 /* InfomationPageViewController.storyboard */; };
+		45A12BEB201D9C9500419061 /* InfomationPageViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45A12BE9201D8B8400419061 /* InfomationPageViewController.storyboard */; };
+		45A12BEC201D9CA000419061 /* InfomationPageViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45A12BE9201D8B8400419061 /* InfomationPageViewController.storyboard */; };
+		45A12BEE201D9CB300419061 /* InfomationPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A12BE7201D8B7800419061 /* InfomationPageViewController.swift */; };
+		45A12BF0201D9D1D00419061 /* InfomationPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A12BE7201D8B7800419061 /* InfomationPageViewController.swift */; };
+		5B7D26AA9C399C4B3016EDBF /* Pods_Piicto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8549D3CA4B4C0BDE0135B7C /* Pods_Piicto.framework */; };
+		6F02E9B8A89DBF7DC7E774A0 /* Pods_Piicto_Staging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B6255ACC196AFB5BF7CBD4F /* Pods_Piicto_Staging.framework */; };
+		B60351FE201A446B00D74806 /* CommunicateDefaultUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60351FD201A446B00D74806 /* CommunicateDefaultUser.swift */; };
+		B60351FF201A446B00D74806 /* CommunicateDefaultUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60351FD201A446B00D74806 /* CommunicateDefaultUser.swift */; };
+		B6035200201A446B00D74806 /* CommunicateDefaultUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60351FD201A446B00D74806 /* CommunicateDefaultUser.swift */; };
+		B6079A01200B6AC1003224A5 /* PiictoNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6079A00200B6AC1003224A5 /* PiictoNavigationController.swift */; };
+		B6079A03200B7283003224A5 /* Reachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6079A02200B7283003224A5 /* Reachability.framework */; };
+		B6079A05200B730B003224A5 /* NetworkConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6079A04200B730B003224A5 /* NetworkConnection.swift */; };
+		B6079A07200B773E003224A5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B6079A06200B773E003224A5 /* Localizable.strings */; };
+		B6079A09200B7821003224A5 /* String+Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6079A08200B7821003224A5 /* String+Localized.swift */; };
+		B6079A0F200BA69E003224A5 /* UViewController+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6079A0E200BA69E003224A5 /* UViewController+Navigation.swift */; };
+		B61128A8200FC27400D45515 /* SendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61128A7200FC27400D45515 /* SendViewController.swift */; };
+		B61128AA200FC27C00D45515 /* SendViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B61128A9200FC27C00D45515 /* SendViewController.storyboard */; };
+		B618E61A201A8206006E8EBF /* UIView+Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455D460A201A098800453B5F /* UIView+Animation.swift */; };
+		B618E61B201A8247006E8EBF /* InstagramAuthViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 455D4612201A4BA400453B5F /* InstagramAuthViewController.storyboard */; };
+		B618E61C201A824C006E8EBF /* InstagramAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455D4614201A4BB800453B5F /* InstagramAuthViewController.swift */; };
+		B618E61D201A826A006E8EBF /* UerInfomation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455D460E201A45A200453B5F /* UerInfomation.swift */; };
+		B61AC2BE201D89A10072D299 /* SwiftyCam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B61AC2BD201D89A10072D299 /* SwiftyCam.framework */; };
+		B61AC2BF201D93830072D299 /* SwiftyCam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B61AC2BD201D89A10072D299 /* SwiftyCam.framework */; };
+		B61AC2C2201D93AE0072D299 /* SwiftyCam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B61AC2BD201D89A10072D299 /* SwiftyCam.framework */; };
+		B61AC2C5201DA9190072D299 /* NewSendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61AC2C4201DA9190072D299 /* NewSendViewController.swift */; };
+		B61AC2C6201DA9190072D299 /* NewSendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61AC2C4201DA9190072D299 /* NewSendViewController.swift */; };
+		B61AC2C7201DA9190072D299 /* NewSendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61AC2C4201DA9190072D299 /* NewSendViewController.swift */; };
+		B61AC2C9201DA9240072D299 /* NewSendViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B61AC2C8201DA9240072D299 /* NewSendViewController.storyboard */; };
+		B61AC2CA201DA9240072D299 /* NewSendViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B61AC2C8201DA9240072D299 /* NewSendViewController.storyboard */; };
+		B61AC2CB201DA9240072D299 /* NewSendViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B61AC2C8201DA9240072D299 /* NewSendViewController.storyboard */; };
+		B61AC2CF201DBAF70072D299 /* RSKImageCropper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B61AC2CE201DBAF60072D299 /* RSKImageCropper.framework */; };
+		B61AC2D0201DBB0D0072D299 /* RSKImageCropper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B61AC2CE201DBAF60072D299 /* RSKImageCropper.framework */; };
+		B61AC2D1201DBB270072D299 /* RSKImageCropper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B61AC2CE201DBAF60072D299 /* RSKImageCropper.framework */; };
+		B61B73BD201C85EF00CBE5CA /* UIView+Vibrated.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61B73BC201C85EF00CBE5CA /* UIView+Vibrated.swift */; };
+		B61B73BE201C85EF00CBE5CA /* UIView+Vibrated.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61B73BC201C85EF00CBE5CA /* UIView+Vibrated.swift */; };
+		B61B73BF201C85EF00CBE5CA /* UIView+Vibrated.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61B73BC201C85EF00CBE5CA /* UIView+Vibrated.swift */; };
+		B638C4662000A650001DD3E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B638C4652000A650001DD3E0 /* AppDelegate.swift */; };
+		B638C46D2000A650001DD3E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B638C46C2000A650001DD3E0 /* Assets.xcassets */; };
+		B638C4702000A650001DD3E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B638C46E2000A650001DD3E0 /* LaunchScreen.storyboard */; };
+		B638C4882000FDFA001DD3E0 /* EAIntroView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B638C4872000FDFA001DD3E0 /* EAIntroView.framework */; };
+		B638C48B20010016001DD3E0 /* EARestrictedScrollView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B638C48A20010015001DD3E0 /* EARestrictedScrollView.framework */; };
+		B638C49420010D7D001DD3E0 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B638C49320010D7D001DD3E0 /* MainViewController.swift */; };
+		B638C49620010DA3001DD3E0 /* MainViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B638C49520010DA3001DD3E0 /* MainViewController.storyboard */; };
+		B638C4992001110A001DD3E0 /* AppLaunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = B638C4982001110A001DD3E0 /* AppLaunch.swift */; };
+		B638C49E2001165F001DD3E0 /* IntroPageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B638C49D2001165F001DD3E0 /* IntroPageProvider.swift */; };
+		B638C4A1200122DB001DD3E0 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B638C4A0200122DB001DD3E0 /* SplashViewController.swift */; };
+		B638C4A3200122E3001DD3E0 /* SplashViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B638C4A2200122E3001DD3E0 /* SplashViewController.storyboard */; };
+		B638C4A62001CA43001DD3E0 /* TalkingHistoryCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = B638C4A52001CA43001DD3E0 /* TalkingHistoryCollectionViewFlowLayout.swift */; };
+		B638C4A92001CCFA001DD3E0 /* TalkingHistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B638C4A72001CCFA001DD3E0 /* TalkingHistoryCell.swift */; };
+		B638C4AA2001CCFA001DD3E0 /* TalkingHistoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B638C4A82001CCFA001DD3E0 /* TalkingHistoryCell.xib */; };
+		B638C4AD2001D17D001DD3E0 /* NSObject+ClassName.swift in Sources */ = {isa = PBXBuildFile; fileRef = B638C4AC2001D17D001DD3E0 /* NSObject+ClassName.swift */; };
+		B638C4AF2001D39D001DD3E0 /* TalkingHistoryProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B638C4AE2001D39D001DD3E0 /* TalkingHistoryProvider.swift */; };
+		B638C4B32001D506001DD3E0 /* TalkingHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B638C4B22001D506001DD3E0 /* TalkingHistory.swift */; };
+		B638C4B62001DA71001DD3E0 /* TalkingHistory.plist in Resources */ = {isa = PBXBuildFile; fileRef = B638C4B52001DA71001DD3E0 /* TalkingHistory.plist */; };
+		B638C4BC2001DDCE001DD3E0 /* image4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B638C4B72001DDCC001DD3E0 /* image4.jpg */; };
+		B638C4BD2001DDCE001DD3E0 /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B638C4B82001DDCD001DD3E0 /* image1.jpg */; };
+		B638C4BE2001DDCE001DD3E0 /* image0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B638C4B92001DDCD001DD3E0 /* image0.jpg */; };
+		B638C4BF2001DDCE001DD3E0 /* image3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B638C4BA2001DDCD001DD3E0 /* image3.jpg */; };
+		B638C4C02001DDCE001DD3E0 /* image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B638C4BB2001DDCD001DD3E0 /* image2.jpg */; };
+		B638C4C8200352E0001DD3E0 /* UIStoryboard+Instance.swift in Sources */ = {isa = PBXBuildFile; fileRef = B638C4C7200352E0001DD3E0 /* UIStoryboard+Instance.swift */; };
+		B638C4CA200354E7001DD3E0 /* HorizontalPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B638C4C9200354E7001DD3E0 /* HorizontalPageViewController.swift */; };
+		B638C4CC200354F1001DD3E0 /* HorizontalPageViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B638C4CB200354F1001DD3E0 /* HorizontalPageViewController.storyboard */; };
+		B64C56612014912C00162915 /* GoogleService-Info-Staging.plist in Resources */ = {isa = PBXBuildFile; fileRef = B64C56602014912B00162915 /* GoogleService-Info-Staging.plist */; };
+		B64C56642014955200162915 /* PiictoAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64C56632014955200162915 /* PiictoAuth.swift */; };
+		B64C56652014956400162915 /* PiictoAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64C56632014955200162915 /* PiictoAuth.swift */; };
+		B64C56662014956500162915 /* PiictoAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64C56632014955200162915 /* PiictoAuth.swift */; };
+		B64C56682014958A00162915 /* UserDefaultsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64C56672014958A00162915 /* UserDefaultsHelper.swift */; };
+		B64C56692014958A00162915 /* UserDefaultsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64C56672014958A00162915 /* UserDefaultsHelper.swift */; };
+		B64C566A2014958A00162915 /* UserDefaultsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64C56672014958A00162915 /* UserDefaultsHelper.swift */; };
+		B64C566D201496D900162915 /* PiictoStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64C566C201496D900162915 /* PiictoStorage.swift */; };
+		B64C566E201496D900162915 /* PiictoStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64C566C201496D900162915 /* PiictoStorage.swift */; };
+		B64C566F201496D900162915 /* PiictoStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64C566C201496D900162915 /* PiictoStorage.swift */; };
+		B64C56722014981900162915 /* PhotosDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64C56712014981900162915 /* PhotosDao.swift */; };
+		B64C56732014981900162915 /* PhotosDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64C56712014981900162915 /* PhotosDao.swift */; };
+		B64C56742014981900162915 /* PhotosDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64C56712014981900162915 /* PhotosDao.swift */; };
+		B64C56762014983900162915 /* UsersDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64C56752014983900162915 /* UsersDao.swift */; };
+		B64C56772014983900162915 /* UsersDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64C56752014983900162915 /* UsersDao.swift */; };
+		B64C56782014983900162915 /* UsersDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64C56752014983900162915 /* UsersDao.swift */; };
+		B64C567B2014986E00162915 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64C567A2014986E00162915 /* Users.swift */; };
+		B64C567C2014986E00162915 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64C567A2014986E00162915 /* Users.swift */; };
+		B64C567D2014986E00162915 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64C567A2014986E00162915 /* Users.swift */; };
+		B64C567F2014998600162915 /* ExchangePhotos.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64C567E2014998600162915 /* ExchangePhotos.swift */; };
+		B64C56802014998600162915 /* ExchangePhotos.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64C567E2014998600162915 /* ExchangePhotos.swift */; };
+		B64C56812014998600162915 /* ExchangePhotos.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64C567E2014998600162915 /* ExchangePhotos.swift */; };
+		B64C568320149A1000162915 /* Photos.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64C568220149A1000162915 /* Photos.swift */; };
+		B64C568420149A1000162915 /* Photos.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64C568220149A1000162915 /* Photos.swift */; };
+		B64C568520149A1000162915 /* Photos.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64C568220149A1000162915 /* Photos.swift */; };
+		B64C568920149CEB00162915 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64C568820149CEB00162915 /* LocationManager.swift */; };
+		B64C568A20149CEB00162915 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64C568820149CEB00162915 /* LocationManager.swift */; };
+		B64C568B20149CEB00162915 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64C568820149CEB00162915 /* LocationManager.swift */; };
+		B64C568D2014A4B600162915 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B64C568C2014A4B600162915 /* GoogleService-Info.plist */; };
+		B64C56922014E15D00162915 /* MainViewController+UIImagePickerControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64C56912014E15D00162915 /* MainViewController+UIImagePickerControllerDelegate.swift */; };
+		B64C56932014E15D00162915 /* MainViewController+UIImagePickerControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64C56912014E15D00162915 /* MainViewController+UIImagePickerControllerDelegate.swift */; };
+		B64C56942014E15D00162915 /* MainViewController+UIImagePickerControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64C56912014E15D00162915 /* MainViewController+UIImagePickerControllerDelegate.swift */; };
+		B64C56962014EB9B00162915 /* EntityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64C56952014EB9B00162915 /* EntityManager.swift */; };
+		B64C56972014EB9B00162915 /* EntityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64C56952014EB9B00162915 /* EntityManager.swift */; };
+		B64C56982014EB9B00162915 /* EntityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64C56952014EB9B00162915 /* EntityManager.swift */; };
+		B64C56A32014EF1900162915 /* ReverseGeocoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64C56A22014EF1900162915 /* ReverseGeocoding.swift */; };
+		B64C56A42014EF1900162915 /* ReverseGeocoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64C56A22014EF1900162915 /* ReverseGeocoding.swift */; };
+		B64C56A52014EF1900162915 /* ReverseGeocoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64C56A22014EF1900162915 /* ReverseGeocoding.swift */; };
+		B64C56A7201500B100162915 /* ExchangePhotosDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64C56A6201500B100162915 /* ExchangePhotosDao.swift */; };
+		B64C56A8201500B100162915 /* ExchangePhotosDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64C56A6201500B100162915 /* ExchangePhotosDao.swift */; };
+		B64C56A9201500B100162915 /* ExchangePhotosDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64C56A6201500B100162915 /* ExchangePhotosDao.swift */; };
+		B64C56AB20161BF000162915 /* Collection+Safe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64C56AA20161BF000162915 /* Collection+Safe.swift */; };
+		B64C56AC20161BF000162915 /* Collection+Safe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64C56AA20161BF000162915 /* Collection+Safe.swift */; };
+		B64C56AD20161BF000162915 /* Collection+Safe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64C56AA20161BF000162915 /* Collection+Safe.swift */; };
+		B64C56B02016F7A600162915 /* SendModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64C56AF2016F7A600162915 /* SendModalViewController.swift */; };
+		B64C56B12016F7A600162915 /* SendModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64C56AF2016F7A600162915 /* SendModalViewController.swift */; };
+		B64C56B22016F7A600162915 /* SendModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64C56AF2016F7A600162915 /* SendModalViewController.swift */; };
+		B64C56B42016F7B200162915 /* SendModalViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B64C56B32016F7B200162915 /* SendModalViewController.storyboard */; };
+		B64C56B52016F7B200162915 /* SendModalViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B64C56B32016F7B200162915 /* SendModalViewController.storyboard */; };
+		B64C56B62016F7B200162915 /* SendModalViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B64C56B32016F7B200162915 /* SendModalViewController.storyboard */; };
+		B64C56B920170FD000162915 /* ImageSlideOutTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64C56B820170FD000162915 /* ImageSlideOutTransition.swift */; };
+		B64C56BA20170FD000162915 /* ImageSlideOutTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64C56B820170FD000162915 /* ImageSlideOutTransition.swift */; };
+		B64C56BB20170FD000162915 /* ImageSlideOutTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64C56B820170FD000162915 /* ImageSlideOutTransition.swift */; };
+		B64C56BE201725FF00162915 /* SendModalViewStatusBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64C56BD201725FF00162915 /* SendModalViewStatusBar.swift */; };
+		B64C56BF201725FF00162915 /* SendModalViewStatusBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64C56BD201725FF00162915 /* SendModalViewStatusBar.swift */; };
+		B64C56C0201725FF00162915 /* SendModalViewStatusBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64C56BD201725FF00162915 /* SendModalViewStatusBar.swift */; };
+		B677479420177B7600106674 /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B677479220177B7600106674 /* Kingfisher.framework */; };
+		B677479520177B7600106674 /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B677479320177B7600106674 /* SVProgressHUD.framework */; };
+		B677479620177B8500106674 /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B677479220177B7600106674 /* Kingfisher.framework */; };
+		B677479720177B8500106674 /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B677479320177B7600106674 /* SVProgressHUD.framework */; };
+		B677479820177B9800106674 /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B677479220177B7600106674 /* Kingfisher.framework */; };
+		B677479920177B9800106674 /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B677479320177B7600106674 /* SVProgressHUD.framework */; };
+		B677479C20177E9500106674 /* SVProgressHUD+Piicto.swift in Sources */ = {isa = PBXBuildFile; fileRef = B677479B20177E9500106674 /* SVProgressHUD+Piicto.swift */; };
+		B677479D20177E9500106674 /* SVProgressHUD+Piicto.swift in Sources */ = {isa = PBXBuildFile; fileRef = B677479B20177E9500106674 /* SVProgressHUD+Piicto.swift */; };
+		B677479E20177E9500106674 /* SVProgressHUD+Piicto.swift in Sources */ = {isa = PBXBuildFile; fileRef = B677479B20177E9500106674 /* SVProgressHUD+Piicto.swift */; };
+		B67747A12017859800106674 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67747A02017859800106674 /* CameraViewController.swift */; };
+		B67747A22017859800106674 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67747A02017859800106674 /* CameraViewController.swift */; };
+		B67747A32017859800106674 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67747A02017859800106674 /* CameraViewController.swift */; };
+		B67747A5201786C800106674 /* CameraViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B67747A4201786C800106674 /* CameraViewController.storyboard */; };
+		B67747A6201786C800106674 /* CameraViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B67747A4201786C800106674 /* CameraViewController.storyboard */; };
+		B67747A7201786C800106674 /* CameraViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B67747A4201786C800106674 /* CameraViewController.storyboard */; };
+		B67747A92017949300106674 /* PhotoFetchAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67747A82017949300106674 /* PhotoFetchAssets.swift */; };
+		B67747AA2017949300106674 /* PhotoFetchAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67747A82017949300106674 /* PhotoFetchAssets.swift */; };
+		B67747AB2017949300106674 /* PhotoFetchAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67747A82017949300106674 /* PhotoFetchAssets.swift */; };
+		B68BCD71201F29D300E6CEED /* LandingPointCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68BCD70201F29D300E6CEED /* LandingPointCalculator.swift */; };
+		B68BCD72201F29D300E6CEED /* LandingPointCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68BCD70201F29D300E6CEED /* LandingPointCalculator.swift */; };
+		B68BCD73201F29D300E6CEED /* LandingPointCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68BCD70201F29D300E6CEED /* LandingPointCalculator.swift */; };
+		B698A93D201F57C300C03FAB /* LibraryViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B698A93B201F57C300C03FAB /* LibraryViewController.storyboard */; };
+		B698A93E201F57C300C03FAB /* LibraryViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B698A93B201F57C300C03FAB /* LibraryViewController.storyboard */; };
+		B698A93F201F57C300C03FAB /* LibraryViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B698A93B201F57C300C03FAB /* LibraryViewController.storyboard */; };
+		B698A940201F57C300C03FAB /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B698A93C201F57C300C03FAB /* LibraryViewController.swift */; };
+		B698A941201F57C300C03FAB /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B698A93C201F57C300C03FAB /* LibraryViewController.swift */; };
+		B698A942201F57C300C03FAB /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B698A93C201F57C300C03FAB /* LibraryViewController.swift */; };
+		B698A946201F57E400C03FAB /* LibraryViewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B698A944201F57E400C03FAB /* LibraryViewProvider.swift */; };
+		B698A947201F57E400C03FAB /* LibraryViewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B698A944201F57E400C03FAB /* LibraryViewProvider.swift */; };
+		B698A948201F57E400C03FAB /* LibraryViewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B698A944201F57E400C03FAB /* LibraryViewProvider.swift */; };
+		B698A949201F57E400C03FAB /* LibraryViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B698A945201F57E400C03FAB /* LibraryViewCell.swift */; };
+		B698A94A201F57E400C03FAB /* LibraryViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B698A945201F57E400C03FAB /* LibraryViewCell.swift */; };
+		B698A94B201F57E400C03FAB /* LibraryViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B698A945201F57E400C03FAB /* LibraryViewCell.swift */; };
+		B698A94D201F57F400C03FAB /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = B698A94C201F57F300C03FAB /* Alert.swift */; };
+		B698A94E201F57F400C03FAB /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = B698A94C201F57F300C03FAB /* Alert.swift */; };
+		B698A94F201F57F400C03FAB /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = B698A94C201F57F300C03FAB /* Alert.swift */; };
+		B698A951201F8EAF00C03FAB /* UIImage+Resize.swift in Sources */ = {isa = PBXBuildFile; fileRef = B698A950201F8EAF00C03FAB /* UIImage+Resize.swift */; };
+		B698A952201F8EAF00C03FAB /* UIImage+Resize.swift in Sources */ = {isa = PBXBuildFile; fileRef = B698A950201F8EAF00C03FAB /* UIImage+Resize.swift */; };
+		B698A953201F8EAF00C03FAB /* UIImage+Resize.swift in Sources */ = {isa = PBXBuildFile; fileRef = B698A950201F8EAF00C03FAB /* UIImage+Resize.swift */; };
+		B698A954201FB29800C03FAB /* ProfilePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A12BA4201C85C500419061 /* ProfilePageViewController.swift */; };
+		B698A955201FB2A400C03FAB /* ProfilePageViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45A12BA2201C85B100419061 /* ProfilePageViewController.storyboard */; };
+		B6DC381F201DFED200873972 /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DC381E201DFED200873972 /* ObjectMapper.framework */; };
+		B6DC3821201DFF1A00873972 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DC3820201DFF1A00873972 /* Alamofire.framework */; };
+		B6DC3822201DFF4200873972 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DC3820201DFF1A00873972 /* Alamofire.framework */; };
+		B6DC3823201DFF4200873972 /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DC381E201DFED200873972 /* ObjectMapper.framework */; };
+		B6DC3824201DFF5A00873972 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DC3820201DFF1A00873972 /* Alamofire.framework */; };
+		B6DC3825201DFF5A00873972 /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DC381E201DFED200873972 /* ObjectMapper.framework */; };
+		B6DC3827201DFF9F00873972 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DC3826201DFF9F00873972 /* APIClient.swift */; };
+		B6DC3828201DFF9F00873972 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DC3826201DFF9F00873972 /* APIClient.swift */; };
+		B6DC3829201DFF9F00873972 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DC3826201DFF9F00873972 /* APIClient.swift */; };
+		B6DC382B201DFFD000873972 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DC382A201DFFD000873972 /* Router.swift */; };
+		B6DC382C201DFFD000873972 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DC382A201DFFD000873972 /* Router.swift */; };
+		B6DC382D201DFFD000873972 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DC382A201DFFD000873972 /* Router.swift */; };
+		B6DC3830201E00B300873972 /* InitialImageAPIParamsBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DC382F201E00B300873972 /* InitialImageAPIParamsBuilder.swift */; };
+		B6DC3831201E00B300873972 /* InitialImageAPIParamsBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DC382F201E00B300873972 /* InitialImageAPIParamsBuilder.swift */; };
+		B6DC3832201E00B300873972 /* InitialImageAPIParamsBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DC382F201E00B300873972 /* InitialImageAPIParamsBuilder.swift */; };
+		B6DC3834201E020F00873972 /* InitialImageAPIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DC3833201E020F00873972 /* InitialImageAPIResponse.swift */; };
+		B6DC3835201E020F00873972 /* InitialImageAPIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DC3833201E020F00873972 /* InitialImageAPIResponse.swift */; };
+		B6DC3836201E020F00873972 /* InitialImageAPIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DC3833201E020F00873972 /* InitialImageAPIResponse.swift */; };
+		B6DC3838201E02BE00873972 /* InitialImageAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DC3837201E02BE00873972 /* InitialImageAPI.swift */; };
+		B6DC3839201E02BE00873972 /* InitialImageAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DC3837201E02BE00873972 /* InitialImageAPI.swift */; };
+		B6DC383A201E02BE00873972 /* InitialImageAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DC3837201E02BE00873972 /* InitialImageAPI.swift */; };
+		B6FEDF4020144773006F9521 /* PiictoNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6079A00200B6AC1003224A5 /* PiictoNavigationController.swift */; };
+		B6FEDF4120144773006F9521 /* IntroPageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B638C49D2001165F001DD3E0 /* IntroPageProvider.swift */; };
+		B6FEDF4220144773006F9521 /* SendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61128A7200FC27400D45515 /* SendViewController.swift */; };
+		B6FEDF4320144773006F9521 /* NetworkConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6079A04200B730B003224A5 /* NetworkConnection.swift */; };
+		B6FEDF4420144773006F9521 /* AppLaunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = B638C4982001110A001DD3E0 /* AppLaunch.swift */; };
+		B6FEDF4520144773006F9521 /* UViewController+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6079A0E200BA69E003224A5 /* UViewController+Navigation.swift */; };
+		B6FEDF4620144773006F9521 /* TalkingHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B638C4B22001D506001DD3E0 /* TalkingHistory.swift */; };
+		B6FEDF4720144773006F9521 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B638C4652000A650001DD3E0 /* AppDelegate.swift */; };
+		B6FEDF4820144773006F9521 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B638C4A0200122DB001DD3E0 /* SplashViewController.swift */; };
+		B6FEDF4920144773006F9521 /* UIStoryboard+Instance.swift in Sources */ = {isa = PBXBuildFile; fileRef = B638C4C7200352E0001DD3E0 /* UIStoryboard+Instance.swift */; };
+		B6FEDF4A20144773006F9521 /* TalkingHistoryProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B638C4AE2001D39D001DD3E0 /* TalkingHistoryProvider.swift */; };
+		B6FEDF4B20144773006F9521 /* TalkingHistoryCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = B638C4A52001CA43001DD3E0 /* TalkingHistoryCollectionViewFlowLayout.swift */; };
+		B6FEDF4C20144773006F9521 /* String+Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6079A08200B7821003224A5 /* String+Localized.swift */; };
+		B6FEDF4D20144773006F9521 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B638C49320010D7D001DD3E0 /* MainViewController.swift */; };
+		B6FEDF4F20144773006F9521 /* HorizontalPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B638C4C9200354E7001DD3E0 /* HorizontalPageViewController.swift */; };
+		B6FEDF5020144773006F9521 /* NSObject+ClassName.swift in Sources */ = {isa = PBXBuildFile; fileRef = B638C4AC2001D17D001DD3E0 /* NSObject+ClassName.swift */; };
+		B6FEDF5120144773006F9521 /* TalkingHistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B638C4A72001CCFA001DD3E0 /* TalkingHistoryCell.swift */; };
+		B6FEDF5320144773006F9521 /* Reachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6079A02200B7283003224A5 /* Reachability.framework */; };
+		B6FEDF5420144773006F9521 /* EARestrictedScrollView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B638C48A20010015001DD3E0 /* EARestrictedScrollView.framework */; };
+		B6FEDF5520144773006F9521 /* EAIntroView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B638C4872000FDFA001DD3E0 /* EAIntroView.framework */; };
+		B6FEDF5620144773006F9521 /* Pods_Piicto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8549D3CA4B4C0BDE0135B7C /* Pods_Piicto.framework */; };
+		B6FEDF5820144773006F9521 /* image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B638C4BB2001DDCD001DD3E0 /* image2.jpg */; };
+		B6FEDF5920144773006F9521 /* SendViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B61128A9200FC27C00D45515 /* SendViewController.storyboard */; };
+		B6FEDF5A20144773006F9521 /* TalkingHistory.plist in Resources */ = {isa = PBXBuildFile; fileRef = B638C4B52001DA71001DD3E0 /* TalkingHistory.plist */; };
+		B6FEDF5B20144773006F9521 /* image3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B638C4BA2001DDCD001DD3E0 /* image3.jpg */; };
+		B6FEDF5C20144773006F9521 /* SplashViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B638C4A2200122E3001DD3E0 /* SplashViewController.storyboard */; };
+		B6FEDF5D20144773006F9521 /* HorizontalPageViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B638C4CB200354F1001DD3E0 /* HorizontalPageViewController.storyboard */; };
+		B6FEDF5E20144773006F9521 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B638C46E2000A650001DD3E0 /* LaunchScreen.storyboard */; };
+		B6FEDF5F20144773006F9521 /* image0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B638C4B92001DDCD001DD3E0 /* image0.jpg */; };
+		B6FEDF6020144773006F9521 /* MainViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B638C49520010DA3001DD3E0 /* MainViewController.storyboard */; };
+		B6FEDF6120144773006F9521 /* image4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B638C4B72001DDCC001DD3E0 /* image4.jpg */; };
+		B6FEDF6220144773006F9521 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B6079A06200B773E003224A5 /* Localizable.strings */; };
+		B6FEDF6320144773006F9521 /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B638C4B82001DDCD001DD3E0 /* image1.jpg */; };
+		B6FEDF6420144773006F9521 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B638C46C2000A650001DD3E0 /* Assets.xcassets */; };
+		B6FEDF6520144773006F9521 /* TalkingHistoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B638C4A82001CCFA001DD3E0 /* TalkingHistoryCell.xib */; };
+		B6FEDF7620148759006F9521 /* PiictoNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6079A00200B6AC1003224A5 /* PiictoNavigationController.swift */; };
+		B6FEDF7720148759006F9521 /* IntroPageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B638C49D2001165F001DD3E0 /* IntroPageProvider.swift */; };
+		B6FEDF7820148759006F9521 /* SendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61128A7200FC27400D45515 /* SendViewController.swift */; };
+		B6FEDF7920148759006F9521 /* NetworkConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6079A04200B730B003224A5 /* NetworkConnection.swift */; };
+		B6FEDF7A20148759006F9521 /* AppLaunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = B638C4982001110A001DD3E0 /* AppLaunch.swift */; };
+		B6FEDF7B20148759006F9521 /* UViewController+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6079A0E200BA69E003224A5 /* UViewController+Navigation.swift */; };
+		B6FEDF7C20148759006F9521 /* TalkingHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B638C4B22001D506001DD3E0 /* TalkingHistory.swift */; };
+		B6FEDF7D20148759006F9521 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B638C4652000A650001DD3E0 /* AppDelegate.swift */; };
+		B6FEDF7E20148759006F9521 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B638C4A0200122DB001DD3E0 /* SplashViewController.swift */; };
+		B6FEDF7F20148759006F9521 /* UIStoryboard+Instance.swift in Sources */ = {isa = PBXBuildFile; fileRef = B638C4C7200352E0001DD3E0 /* UIStoryboard+Instance.swift */; };
+		B6FEDF8020148759006F9521 /* TalkingHistoryProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B638C4AE2001D39D001DD3E0 /* TalkingHistoryProvider.swift */; };
+		B6FEDF8120148759006F9521 /* TalkingHistoryCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = B638C4A52001CA43001DD3E0 /* TalkingHistoryCollectionViewFlowLayout.swift */; };
+		B6FEDF8220148759006F9521 /* String+Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6079A08200B7821003224A5 /* String+Localized.swift */; };
+		B6FEDF8320148759006F9521 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B638C49320010D7D001DD3E0 /* MainViewController.swift */; };
+		B6FEDF8520148759006F9521 /* HorizontalPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B638C4C9200354E7001DD3E0 /* HorizontalPageViewController.swift */; };
+		B6FEDF8620148759006F9521 /* NSObject+ClassName.swift in Sources */ = {isa = PBXBuildFile; fileRef = B638C4AC2001D17D001DD3E0 /* NSObject+ClassName.swift */; };
+		B6FEDF8720148759006F9521 /* TalkingHistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B638C4A72001CCFA001DD3E0 /* TalkingHistoryCell.swift */; };
+		B6FEDF8920148759006F9521 /* Reachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6079A02200B7283003224A5 /* Reachability.framework */; };
+		B6FEDF8A20148759006F9521 /* EARestrictedScrollView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B638C48A20010015001DD3E0 /* EARestrictedScrollView.framework */; };
+		B6FEDF8B20148759006F9521 /* EAIntroView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B638C4872000FDFA001DD3E0 /* EAIntroView.framework */; };
+		B6FEDF8C20148759006F9521 /* Pods_Piicto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8549D3CA4B4C0BDE0135B7C /* Pods_Piicto.framework */; };
+		B6FEDF8E20148759006F9521 /* image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B638C4BB2001DDCD001DD3E0 /* image2.jpg */; };
+		B6FEDF8F20148759006F9521 /* SendViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B61128A9200FC27C00D45515 /* SendViewController.storyboard */; };
+		B6FEDF9020148759006F9521 /* TalkingHistory.plist in Resources */ = {isa = PBXBuildFile; fileRef = B638C4B52001DA71001DD3E0 /* TalkingHistory.plist */; };
+		B6FEDF9120148759006F9521 /* image3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B638C4BA2001DDCD001DD3E0 /* image3.jpg */; };
+		B6FEDF9220148759006F9521 /* SplashViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B638C4A2200122E3001DD3E0 /* SplashViewController.storyboard */; };
+		B6FEDF9320148759006F9521 /* HorizontalPageViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B638C4CB200354F1001DD3E0 /* HorizontalPageViewController.storyboard */; };
+		B6FEDF9420148759006F9521 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B638C46E2000A650001DD3E0 /* LaunchScreen.storyboard */; };
+		B6FEDF9520148759006F9521 /* image0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B638C4B92001DDCD001DD3E0 /* image0.jpg */; };
+		B6FEDF9620148759006F9521 /* MainViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B638C49520010DA3001DD3E0 /* MainViewController.storyboard */; };
+		B6FEDF9720148759006F9521 /* image4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B638C4B72001DDCC001DD3E0 /* image4.jpg */; };
+		B6FEDF9820148759006F9521 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B6079A06200B773E003224A5 /* Localizable.strings */; };
+		B6FEDF9920148759006F9521 /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B638C4B82001DDCD001DD3E0 /* image1.jpg */; };
+		B6FEDF9A20148759006F9521 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B638C46C2000A650001DD3E0 /* Assets.xcassets */; };
+		B6FEDF9B20148759006F9521 /* TalkingHistoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B638C4A82001CCFA001DD3E0 /* TalkingHistoryCell.xib */; };
+		DB48BCE0B3B646D349F82920 /* Pods_Piicto_Dev.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D3EF1CED8592DF0A2CB472A /* Pods_Piicto_Dev.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B638C4772000A650001DD3E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B638C45A2000A64F001DD3E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B638C4612000A64F001DD3E0;
+			remoteInfo = PictCatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F19E672311314A3B74C0AD9 /* Pods_PiictoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PiictoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		455D4602201A024900453B5F /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		455D4603201A024900453B5F /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		455D4608201A025900453B5F /* FacebookCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FacebookCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		455D4609201A025900453B5F /* FacebookLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FacebookLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		455D460A201A098800453B5F /* UIView+Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Animation.swift"; sourceTree = "<group>"; };
+		455D460E201A45A200453B5F /* UerInfomation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UerInfomation.swift; sourceTree = "<group>"; };
+		455D4612201A4BA400453B5F /* InstagramAuthViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = InstagramAuthViewController.storyboard; sourceTree = "<group>"; };
+		455D4614201A4BB800453B5F /* InstagramAuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramAuthViewController.swift; sourceTree = "<group>"; };
+		459EBB192021F28F00EC4437 /* Info-Dev.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-Dev.plist"; sourceTree = "<group>"; };
+		459EBB1A2021F29000EC4437 /* Info-Staging.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-Staging.plist"; sourceTree = "<group>"; };
+		459EBB1F2022B80700EC4437 /* InstagramAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramAPI.swift; sourceTree = "<group>"; };
+		459EBB232022B81D00EC4437 /* InstagramAPIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramAPIResponse.swift; sourceTree = "<group>"; };
+		45A12BA2201C85B100419061 /* ProfilePageViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProfilePageViewController.storyboard; sourceTree = "<group>"; };
+		45A12BA4201C85C500419061 /* ProfilePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePageViewController.swift; sourceTree = "<group>"; };
+		45A12BE7201D8B7800419061 /* InfomationPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfomationPageViewController.swift; sourceTree = "<group>"; };
+		45A12BE9201D8B8400419061 /* InfomationPageViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = InfomationPageViewController.storyboard; sourceTree = "<group>"; };
+		4D3EF1CED8592DF0A2CB472A /* Pods_Piicto_Dev.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Piicto_Dev.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63802DCC7F93BBD9AE1B8A60 /* Pods-Piicto-Dev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Piicto-Dev.release.xcconfig"; path = "Pods/Target Support Files/Pods-Piicto-Dev/Pods-Piicto-Dev.release.xcconfig"; sourceTree = "<group>"; };
+		6992CE2B4CA3A3C76073D029 /* Pods-PiictoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PiictoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PiictoTests/Pods-PiictoTests.release.xcconfig"; sourceTree = "<group>"; };
+		7B6255ACC196AFB5BF7CBD4F /* Pods_Piicto_Staging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Piicto_Staging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80E964B77E27538A049C837C /* Pods-Piicto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Piicto.release.xcconfig"; path = "Pods/Target Support Files/Pods-Piicto/Pods-Piicto.release.xcconfig"; sourceTree = "<group>"; };
+		8C6F8FD8E9842836D71F007B /* Pods-Piicto-Staging.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Piicto-Staging.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Piicto-Staging/Pods-Piicto-Staging.debug.xcconfig"; sourceTree = "<group>"; };
+		B60351FD201A446B00D74806 /* CommunicateDefaultUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunicateDefaultUser.swift; sourceTree = "<group>"; };
+		B6079A00200B6AC1003224A5 /* PiictoNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiictoNavigationController.swift; sourceTree = "<group>"; };
+		B6079A02200B7283003224A5 /* Reachability.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Reachability.framework; path = Carthage/Build/iOS/Reachability.framework; sourceTree = "<group>"; };
+		B6079A04200B730B003224A5 /* NetworkConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConnection.swift; sourceTree = "<group>"; };
+		B6079A06200B773E003224A5 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		B6079A08200B7821003224A5 /* String+Localized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Localized.swift"; sourceTree = "<group>"; };
+		B6079A0E200BA69E003224A5 /* UViewController+Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UViewController+Navigation.swift"; sourceTree = "<group>"; };
+		B61128A7200FC27400D45515 /* SendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendViewController.swift; sourceTree = "<group>"; };
+		B61128A9200FC27C00D45515 /* SendViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SendViewController.storyboard; sourceTree = "<group>"; };
+		B61AC2BD201D89A10072D299 /* SwiftyCam.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyCam.framework; path = Carthage/Build/iOS/SwiftyCam.framework; sourceTree = "<group>"; };
+		B61AC2C0201D939F0072D299 /* 5AD16F7B-806B-3436-9061-759F2C7EA889.bcsymbolmap */ = {isa = PBXFileReference; lastKnownFileType = text; name = "5AD16F7B-806B-3436-9061-759F2C7EA889.bcsymbolmap"; path = "Carthage/Build/iOS/5AD16F7B-806B-3436-9061-759F2C7EA889.bcsymbolmap"; sourceTree = "<group>"; };
+		B61AC2C4201DA9190072D299 /* NewSendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSendViewController.swift; sourceTree = "<group>"; };
+		B61AC2C8201DA9240072D299 /* NewSendViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NewSendViewController.storyboard; sourceTree = "<group>"; };
+		B61AC2CE201DBAF60072D299 /* RSKImageCropper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RSKImageCropper.framework; path = Carthage/Build/iOS/RSKImageCropper.framework; sourceTree = "<group>"; };
+		B61B73BC201C85EF00CBE5CA /* UIView+Vibrated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Vibrated.swift"; sourceTree = "<group>"; };
+		B638C4622000A64F001DD3E0 /* Piicto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Piicto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B638C4652000A650001DD3E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B638C46C2000A650001DD3E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B638C46F2000A650001DD3E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B638C4712000A650001DD3E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B638C4762000A650001DD3E0 /* PiictoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PiictoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B638C47C2000A650001DD3E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B638C4872000FDFA001DD3E0 /* EAIntroView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EAIntroView.framework; path = Carthage/Build/iOS/EAIntroView.framework; sourceTree = "<group>"; };
+		B638C48A20010015001DD3E0 /* EARestrictedScrollView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EARestrictedScrollView.framework; path = Carthage/Build/iOS/EARestrictedScrollView.framework; sourceTree = "<group>"; };
+		B638C49320010D7D001DD3E0 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		B638C49520010DA3001DD3E0 /* MainViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainViewController.storyboard; sourceTree = "<group>"; };
+		B638C4982001110A001DD3E0 /* AppLaunch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLaunch.swift; sourceTree = "<group>"; };
+		B638C49D2001165F001DD3E0 /* IntroPageProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroPageProvider.swift; sourceTree = "<group>"; };
+		B638C4A0200122DB001DD3E0 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		B638C4A2200122E3001DD3E0 /* SplashViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SplashViewController.storyboard; sourceTree = "<group>"; };
+		B638C4A52001CA43001DD3E0 /* TalkingHistoryCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkingHistoryCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		B638C4A72001CCFA001DD3E0 /* TalkingHistoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkingHistoryCell.swift; sourceTree = "<group>"; };
+		B638C4A82001CCFA001DD3E0 /* TalkingHistoryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TalkingHistoryCell.xib; sourceTree = "<group>"; };
+		B638C4AC2001D17D001DD3E0 /* NSObject+ClassName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+ClassName.swift"; sourceTree = "<group>"; };
+		B638C4AE2001D39D001DD3E0 /* TalkingHistoryProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkingHistoryProvider.swift; sourceTree = "<group>"; };
+		B638C4B22001D506001DD3E0 /* TalkingHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkingHistory.swift; sourceTree = "<group>"; };
+		B638C4B52001DA71001DD3E0 /* TalkingHistory.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TalkingHistory.plist; sourceTree = "<group>"; };
+		B638C4B72001DDCC001DD3E0 /* image4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image4.jpg; sourceTree = "<group>"; };
+		B638C4B82001DDCD001DD3E0 /* image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpg; sourceTree = "<group>"; };
+		B638C4B92001DDCD001DD3E0 /* image0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image0.jpg; sourceTree = "<group>"; };
+		B638C4BA2001DDCD001DD3E0 /* image3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image3.jpg; sourceTree = "<group>"; };
+		B638C4BB2001DDCD001DD3E0 /* image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image2.jpg; sourceTree = "<group>"; };
+		B638C4C7200352E0001DD3E0 /* UIStoryboard+Instance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Instance.swift"; sourceTree = "<group>"; };
+		B638C4C9200354E7001DD3E0 /* HorizontalPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalPageViewController.swift; sourceTree = "<group>"; };
+		B638C4CB200354F1001DD3E0 /* HorizontalPageViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HorizontalPageViewController.storyboard; sourceTree = "<group>"; };
+		B64C56602014912B00162915 /* GoogleService-Info-Staging.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-Staging.plist"; sourceTree = "<group>"; };
+		B64C56632014955200162915 /* PiictoAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiictoAuth.swift; sourceTree = "<group>"; };
+		B64C56672014958A00162915 /* UserDefaultsHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsHelper.swift; sourceTree = "<group>"; };
+		B64C566C201496D900162915 /* PiictoStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiictoStorage.swift; sourceTree = "<group>"; };
+		B64C56712014981900162915 /* PhotosDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosDao.swift; sourceTree = "<group>"; };
+		B64C56752014983900162915 /* UsersDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersDao.swift; sourceTree = "<group>"; };
+		B64C567A2014986E00162915 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		B64C567E2014998600162915 /* ExchangePhotos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangePhotos.swift; sourceTree = "<group>"; };
+		B64C568220149A1000162915 /* Photos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photos.swift; sourceTree = "<group>"; };
+		B64C568820149CEB00162915 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		B64C568C2014A4B600162915 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B64C56912014E15D00162915 /* MainViewController+UIImagePickerControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainViewController+UIImagePickerControllerDelegate.swift"; sourceTree = "<group>"; };
+		B64C56952014EB9B00162915 /* EntityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityManager.swift; sourceTree = "<group>"; };
+		B64C56A22014EF1900162915 /* ReverseGeocoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseGeocoding.swift; sourceTree = "<group>"; };
+		B64C56A6201500B100162915 /* ExchangePhotosDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangePhotosDao.swift; sourceTree = "<group>"; };
+		B64C56AA20161BF000162915 /* Collection+Safe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+Safe.swift"; sourceTree = "<group>"; };
+		B64C56AF2016F7A600162915 /* SendModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendModalViewController.swift; sourceTree = "<group>"; };
+		B64C56B32016F7B200162915 /* SendModalViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SendModalViewController.storyboard; sourceTree = "<group>"; };
+		B64C56B820170FD000162915 /* ImageSlideOutTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSlideOutTransition.swift; sourceTree = "<group>"; };
+		B64C56BD201725FF00162915 /* SendModalViewStatusBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendModalViewStatusBar.swift; sourceTree = "<group>"; };
+		B677479220177B7600106674 /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = Carthage/Build/iOS/Kingfisher.framework; sourceTree = "<group>"; };
+		B677479320177B7600106674 /* SVProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SVProgressHUD.framework; path = Carthage/Build/iOS/SVProgressHUD.framework; sourceTree = "<group>"; };
+		B677479B20177E9500106674 /* SVProgressHUD+Piicto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SVProgressHUD+Piicto.swift"; sourceTree = "<group>"; };
+		B67747A02017859800106674 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		B67747A4201786C800106674 /* CameraViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CameraViewController.storyboard; sourceTree = "<group>"; };
+		B67747A82017949300106674 /* PhotoFetchAssets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoFetchAssets.swift; sourceTree = "<group>"; };
+		B68BCD70201F29D300E6CEED /* LandingPointCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPointCalculator.swift; sourceTree = "<group>"; };
+		B698A93B201F57C300C03FAB /* LibraryViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LibraryViewController.storyboard; path = "Piicto/Controllers/New Group/LibraryViewController.storyboard"; sourceTree = SOURCE_ROOT; };
+		B698A93C201F57C300C03FAB /* LibraryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LibraryViewController.swift; path = "Piicto/Controllers/New Group/LibraryViewController.swift"; sourceTree = SOURCE_ROOT; };
+		B698A944201F57E400C03FAB /* LibraryViewProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LibraryViewProvider.swift; path = "Piicto/Views/New Group/LibraryViewProvider.swift"; sourceTree = SOURCE_ROOT; };
+		B698A945201F57E400C03FAB /* LibraryViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LibraryViewCell.swift; path = "Piicto/Views/New Group/LibraryViewCell.swift"; sourceTree = SOURCE_ROOT; };
+		B698A94C201F57F300C03FAB /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		B698A950201F8EAF00C03FAB /* UIImage+Resize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Resize.swift"; sourceTree = "<group>"; };
+		B6A80431201DD90000988FA1 /* Piicto-Staging.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Piicto-Staging.entitlements"; sourceTree = "<group>"; };
+		B6A80432201DEEF300988FA1 /* Piicto-Dev.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Piicto-Dev.entitlements"; sourceTree = "<group>"; };
+		B6DC381E201DFED200873972 /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectMapper.framework; path = Carthage/Build/iOS/ObjectMapper.framework; sourceTree = "<group>"; };
+		B6DC3820201DFF1A00873972 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		B6DC3826201DFF9F00873972 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		B6DC382A201DFFD000873972 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		B6DC382F201E00B300873972 /* InitialImageAPIParamsBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialImageAPIParamsBuilder.swift; sourceTree = "<group>"; };
+		B6DC3833201E020F00873972 /* InitialImageAPIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialImageAPIResponse.swift; sourceTree = "<group>"; };
+		B6DC3837201E02BE00873972 /* InitialImageAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialImageAPI.swift; sourceTree = "<group>"; };
+		B6FEDF6D20144773006F9521 /* Piicto-Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Piicto-Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6FEDFA320148759006F9521 /* Piicto-Staging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Piicto-Staging.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7A310862F5F8C559EB8E5C3 /* Pods-PiictoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PiictoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PiictoTests/Pods-PiictoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D0A5CE23292642D441EF5E5E /* Pods-Piicto-Dev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Piicto-Dev.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Piicto-Dev/Pods-Piicto-Dev.debug.xcconfig"; sourceTree = "<group>"; };
+		DBB78EDE699B37CB9B18B678 /* Pods-Piicto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Piicto.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Piicto/Pods-Piicto.debug.xcconfig"; sourceTree = "<group>"; };
+		EC971C61D1CF2D3B9E1D56A5 /* Pods-Piicto-Staging.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Piicto-Staging.release.xcconfig"; path = "Pods/Target Support Files/Pods-Piicto-Staging/Pods-Piicto-Staging.release.xcconfig"; sourceTree = "<group>"; };
+		F8549D3CA4B4C0BDE0135B7C /* Pods_Piicto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Piicto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B638C45F2000A64F001DD3E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6DC3821201DFF1A00873972 /* Alamofire.framework in Frameworks */,
+				B638C48B20010016001DD3E0 /* EARestrictedScrollView.framework in Frameworks */,
+				B638C4882000FDFA001DD3E0 /* EAIntroView.framework in Frameworks */,
+				455D4604201A024A00453B5F /* FBSDKCoreKit.framework in Frameworks */,
+				455D4605201A024A00453B5F /* FBSDKLoginKit.framework in Frameworks */,
+				B6DC381F201DFED200873972 /* ObjectMapper.framework in Frameworks */,
+				B6079A03200B7283003224A5 /* Reachability.framework in Frameworks */,
+				B61AC2CF201DBAF70072D299 /* RSKImageCropper.framework in Frameworks */,
+				B677479420177B7600106674 /* Kingfisher.framework in Frameworks */,
+				B677479520177B7600106674 /* SVProgressHUD.framework in Frameworks */,
+				B61AC2BE201D89A10072D299 /* SwiftyCam.framework in Frameworks */,
+				5B7D26AA9C399C4B3016EDBF /* Pods_Piicto.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B638C4732000A650001DD3E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C1A53448CA04E5CDAEF8981 /* Pods_PiictoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6FEDF5220144773006F9521 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6DC3822201DFF4200873972 /* Alamofire.framework in Frameworks */,
+				B6FEDF5520144773006F9521 /* EAIntroView.framework in Frameworks */,
+				B6FEDF5420144773006F9521 /* EARestrictedScrollView.framework in Frameworks */,
+				B61AC2C2201D93AE0072D299 /* SwiftyCam.framework in Frameworks */,
+				455D4606201A025900453B5F /* FacebookCore.framework in Frameworks */,
+				455D4607201A025900453B5F /* FacebookLogin.framework in Frameworks */,
+				B6DC3823201DFF4200873972 /* ObjectMapper.framework in Frameworks */,
+				B6FEDF5320144773006F9521 /* Reachability.framework in Frameworks */,
+				B61AC2D0201DBB0D0072D299 /* RSKImageCropper.framework in Frameworks */,
+				B677479620177B8500106674 /* Kingfisher.framework in Frameworks */,
+				B677479720177B8500106674 /* SVProgressHUD.framework in Frameworks */,
+				B6FEDF5620144773006F9521 /* Pods_Piicto.framework in Frameworks */,
+				DB48BCE0B3B646D349F82920 /* Pods_Piicto_Dev.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6FEDF8820148759006F9521 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6DC3824201DFF5A00873972 /* Alamofire.framework in Frameworks */,
+				B6FEDF8B20148759006F9521 /* EAIntroView.framework in Frameworks */,
+				B6FEDF8A20148759006F9521 /* EARestrictedScrollView.framework in Frameworks */,
+				B677479820177B9800106674 /* Kingfisher.framework in Frameworks */,
+				B6DC3825201DFF5A00873972 /* ObjectMapper.framework in Frameworks */,
+				B6FEDF8920148759006F9521 /* Reachability.framework in Frameworks */,
+				B61AC2D1201DBB270072D299 /* RSKImageCropper.framework in Frameworks */,
+				B677479920177B9800106674 /* SVProgressHUD.framework in Frameworks */,
+				B61AC2BF201D93830072D299 /* SwiftyCam.framework in Frameworks */,
+				B6FEDF8C20148759006F9521 /* Pods_Piicto.framework in Frameworks */,
+				6F02E9B8A89DBF7DC7E774A0 /* Pods_Piicto_Staging.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		455D460D201A458300453B5F /* Facebook */ = {
+			isa = PBXGroup;
+			children = (
+				455D460E201A45A200453B5F /* UerInfomation.swift */,
+			);
+			path = Facebook;
+			sourceTree = "<group>";
+		};
+		455D4611201A4B8800453B5F /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				455D4614201A4BB800453B5F /* InstagramAuthViewController.swift */,
+				455D4612201A4BA400453B5F /* InstagramAuthViewController.storyboard */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		459EBB1B2021FCDC00EC4437 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				B698A945201F57E400C03FAB /* LibraryViewCell.swift */,
+				B698A944201F57E400C03FAB /* LibraryViewProvider.swift */,
+			);
+			name = Library;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		459EBB1C2021FCFA00EC4437 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				B698A93B201F57C300C03FAB /* LibraryViewController.storyboard */,
+				B698A93C201F57C300C03FAB /* LibraryViewController.swift */,
+			);
+			name = Library;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		459EBB1D2022B7E200EC4437 /* Instagram */ = {
+			isa = PBXGroup;
+			children = (
+				459EBB1E2022B7ED00EC4437 /* API */,
+			);
+			path = Instagram;
+			sourceTree = "<group>";
+		};
+		459EBB1E2022B7ED00EC4437 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				459EBB1F2022B80700EC4437 /* InstagramAPI.swift */,
+				459EBB232022B81D00EC4437 /* InstagramAPIResponse.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		45A12BA1201C859D00419061 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				45A12BA2201C85B100419061 /* ProfilePageViewController.storyboard */,
+				45A12BA4201C85C500419061 /* ProfilePageViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		45A12BE4201D8AF800419061 /* Infomation */ = {
+			isa = PBXGroup;
+			children = (
+				45A12BE7201D8B7800419061 /* InfomationPageViewController.swift */,
+				45A12BE9201D8B8400419061 /* InfomationPageViewController.storyboard */,
+			);
+			path = Infomation;
+			sourceTree = "<group>";
+		};
+		7102F5041BAE4A423F5BFC02 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DBB78EDE699B37CB9B18B678 /* Pods-Piicto.debug.xcconfig */,
+				80E964B77E27538A049C837C /* Pods-Piicto.release.xcconfig */,
+				B7A310862F5F8C559EB8E5C3 /* Pods-PiictoTests.debug.xcconfig */,
+				6992CE2B4CA3A3C76073D029 /* Pods-PiictoTests.release.xcconfig */,
+				D0A5CE23292642D441EF5E5E /* Pods-Piicto-Dev.debug.xcconfig */,
+				63802DCC7F93BBD9AE1B8A60 /* Pods-Piicto-Dev.release.xcconfig */,
+				8C6F8FD8E9842836D71F007B /* Pods-Piicto-Staging.debug.xcconfig */,
+				EC971C61D1CF2D3B9E1D56A5 /* Pods-Piicto-Staging.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B60351FC201A43FD00D74806 /* DefaultUser */ = {
+			isa = PBXGroup;
+			children = (
+				B60351FD201A446B00D74806 /* CommunicateDefaultUser.swift */,
+			);
+			path = DefaultUser;
+			sourceTree = "<group>";
+		};
+		B61128A6200FC25500D45515 /* Send */ = {
+			isa = PBXGroup;
+			children = (
+				B64C56AE2016F78F00162915 /* Modal */,
+				B61128A7200FC27400D45515 /* SendViewController.swift */,
+				B61128A9200FC27C00D45515 /* SendViewController.storyboard */,
+			);
+			path = Send;
+			sourceTree = "<group>";
+		};
+		B61AC2C3201DA9040072D299 /* NewSend */ = {
+			isa = PBXGroup;
+			children = (
+				B61AC2C4201DA9190072D299 /* NewSendViewController.swift */,
+				B61AC2C8201DA9240072D299 /* NewSendViewController.storyboard */,
+			);
+			path = NewSend;
+			sourceTree = "<group>";
+		};
+		B638C4592000A64F001DD3E0 = {
+			isa = PBXGroup;
+			children = (
+				B638C4642000A64F001DD3E0 /* Piicto */,
+				B638C4792000A650001DD3E0 /* PiictoTests */,
+				B638C4632000A64F001DD3E0 /* Products */,
+				B638C4862000FDFA001DD3E0 /* Frameworks */,
+				7102F5041BAE4A423F5BFC02 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		B638C4632000A64F001DD3E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B638C4622000A64F001DD3E0 /* Piicto.app */,
+				B638C4762000A650001DD3E0 /* PiictoTests.xctest */,
+				B6FEDF6D20144773006F9521 /* Piicto-Dev.app */,
+				B6FEDFA320148759006F9521 /* Piicto-Staging.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B638C4642000A64F001DD3E0 /* Piicto */ = {
+			isa = PBXGroup;
+			children = (
+				B638C497200110E9001DD3E0 /* Helpers */,
+				B638C48F20010BB7001DD3E0 /* Extensions */,
+				B638C48E20010BB1001DD3E0 /* Controllers */,
+				B638C48C20010BA4001DD3E0 /* Models */,
+				B638C48D20010BAC001DD3E0 /* Views */,
+				B638C49020010BC2001DD3E0 /* Others */,
+			);
+			path = Piicto;
+			sourceTree = "<group>";
+		};
+		B638C4792000A650001DD3E0 /* PiictoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B638C47C2000A650001DD3E0 /* Info.plist */,
+			);
+			path = PiictoTests;
+			sourceTree = "<group>";
+		};
+		B638C4862000FDFA001DD3E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6DC3820201DFF1A00873972 /* Alamofire.framework */,
+				B6DC381E201DFED200873972 /* ObjectMapper.framework */,
+				B61AC2CE201DBAF60072D299 /* RSKImageCropper.framework */,
+				B61AC2C0201D939F0072D299 /* 5AD16F7B-806B-3436-9061-759F2C7EA889.bcsymbolmap */,
+				B61AC2BD201D89A10072D299 /* SwiftyCam.framework */,
+				455D4608201A025900453B5F /* FacebookCore.framework */,
+				455D4609201A025900453B5F /* FacebookLogin.framework */,
+				455D4602201A024900453B5F /* FBSDKCoreKit.framework */,
+				455D4603201A024900453B5F /* FBSDKLoginKit.framework */,
+				B677479220177B7600106674 /* Kingfisher.framework */,
+				B677479320177B7600106674 /* SVProgressHUD.framework */,
+				B6079A02200B7283003224A5 /* Reachability.framework */,
+				B638C48A20010015001DD3E0 /* EARestrictedScrollView.framework */,
+				B638C4872000FDFA001DD3E0 /* EAIntroView.framework */,
+				F8549D3CA4B4C0BDE0135B7C /* Pods_Piicto.framework */,
+				0F19E672311314A3B74C0AD9 /* Pods_PiictoTests.framework */,
+				4D3EF1CED8592DF0A2CB472A /* Pods_Piicto_Dev.framework */,
+				7B6255ACC196AFB5BF7CBD4F /* Pods_Piicto_Staging.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B638C48C20010BA4001DD3E0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				459EBB1D2022B7E200EC4437 /* Instagram */,
+				455D460D201A458300453B5F /* Facebook */,
+				B64C568620149CA500162915 /* Firebase */,
+				B64C568720149CBA00162915 /* Splash */,
+				B64C56A12014EF0200162915 /* Main */,
+				B638C4B22001D506001DD3E0 /* TalkingHistory.swift */,
+				B638C4B42001DA3E001DD3E0 /* DEBUG */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B638C48D20010BAC001DD3E0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				459EBB1B2021FCDC00EC4437 /* Library */,
+				B638C4B02001D4D4001DD3E0 /* Main */,
+				B64C56B720170FB800162915 /* Send */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B638C48E20010BB1001DD3E0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				459EBB1C2021FCFA00EC4437 /* Library */,
+				45A12BE4201D8AF800419061 /* Infomation */,
+				B61AC2C3201DA9040072D299 /* NewSend */,
+				45A12BA1201C859D00419061 /* Profile */,
+				455D4611201A4B8800453B5F /* Auth */,
+				B677479F2017858300106674 /* Camera */,
+				B61128A6200FC25500D45515 /* Send */,
+				B638C49220010D65001DD3E0 /* Startup */,
+				B638C49F20012288001DD3E0 /* Splash */,
+				B638C49120010D54001DD3E0 /* Main */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B638C48F20010BB7001DD3E0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B638C4AB2001D15A001DD3E0 /* Foundation */,
+				B638C4C6200352CC001DD3E0 /* UIKit */,
+				B677479A20177E5900106674 /* OSS */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B638C49020010BC2001DD3E0 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				B64C568E2014A96900162915 /* Dev */,
+				B64C568F2014A96E00162915 /* Staging */,
+				B638C4652000A650001DD3E0 /* AppDelegate.swift */,
+				B638C46C2000A650001DD3E0 /* Assets.xcassets */,
+				B638C4712000A650001DD3E0 /* Info.plist */,
+				459EBB192021F28F00EC4437 /* Info-Dev.plist */,
+				459EBB1A2021F29000EC4437 /* Info-Staging.plist */,
+				B6079A06200B773E003224A5 /* Localizable.strings */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		B638C49120010D54001DD3E0 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B64C56902014E13500162915 /* Extensions */,
+				B638C4C9200354E7001DD3E0 /* HorizontalPageViewController.swift */,
+				B638C4CB200354F1001DD3E0 /* HorizontalPageViewController.storyboard */,
+				B638C49320010D7D001DD3E0 /* MainViewController.swift */,
+				B638C49520010DA3001DD3E0 /* MainViewController.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B638C49220010D65001DD3E0 /* Startup */ = {
+			isa = PBXGroup;
+			children = (
+				B638C46E2000A650001DD3E0 /* LaunchScreen.storyboard */,
+			);
+			path = Startup;
+			sourceTree = "<group>";
+		};
+		B638C497200110E9001DD3E0 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B698A94C201F57F300C03FAB /* Alert.swift */,
+				B6DC3826201DFF9F00873972 /* APIClient.swift */,
+				B638C4982001110A001DD3E0 /* AppLaunch.swift */,
+				B6079A04200B730B003224A5 /* NetworkConnection.swift */,
+				B6DC382A201DFFD000873972 /* Router.swift */,
+				B6079A00200B6AC1003224A5 /* PiictoNavigationController.swift */,
+				B64C56672014958A00162915 /* UserDefaultsHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		B638C49C20011606001DD3E0 /* IntroPage */ = {
+			isa = PBXGroup;
+			children = (
+				B638C49D2001165F001DD3E0 /* IntroPageProvider.swift */,
+			);
+			path = IntroPage;
+			sourceTree = "<group>";
+		};
+		B638C49F20012288001DD3E0 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				B638C4A0200122DB001DD3E0 /* SplashViewController.swift */,
+				B638C4A2200122E3001DD3E0 /* SplashViewController.storyboard */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		B638C4A42001C9A6001DD3E0 /* TalkingHistoryCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				B638C4A82001CCFA001DD3E0 /* TalkingHistoryCell.xib */,
+				B638C4A72001CCFA001DD3E0 /* TalkingHistoryCell.swift */,
+				B638C4A52001CA43001DD3E0 /* TalkingHistoryCollectionViewFlowLayout.swift */,
+				B638C4AE2001D39D001DD3E0 /* TalkingHistoryProvider.swift */,
+			);
+			path = TalkingHistoryCollectionView;
+			sourceTree = "<group>";
+		};
+		B638C4AB2001D15A001DD3E0 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				B64C56AA20161BF000162915 /* Collection+Safe.swift */,
+				B638C4AC2001D17D001DD3E0 /* NSObject+ClassName.swift */,
+				B6079A08200B7821003224A5 /* String+Localized.swift */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		B638C4B02001D4D4001DD3E0 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B638C49C20011606001DD3E0 /* IntroPage */,
+				B638C4A42001C9A6001DD3E0 /* TalkingHistoryCollectionView */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B638C4B42001DA3E001DD3E0 /* DEBUG */ = {
+			isa = PBXGroup;
+			children = (
+				B638C4B52001DA71001DD3E0 /* TalkingHistory.plist */,
+				B638C4B92001DDCD001DD3E0 /* image0.jpg */,
+				B638C4B82001DDCD001DD3E0 /* image1.jpg */,
+				B638C4BB2001DDCD001DD3E0 /* image2.jpg */,
+				B638C4BA2001DDCD001DD3E0 /* image3.jpg */,
+				B638C4B72001DDCC001DD3E0 /* image4.jpg */,
+			);
+			path = DEBUG;
+			sourceTree = "<group>";
+		};
+		B638C4C6200352CC001DD3E0 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				B638C4C7200352E0001DD3E0 /* UIStoryboard+Instance.swift */,
+				B6079A0E200BA69E003224A5 /* UViewController+Navigation.swift */,
+				455D460A201A098800453B5F /* UIView+Animation.swift */,
+				B61B73BC201C85EF00CBE5CA /* UIView+Vibrated.swift */,
+				B698A950201F8EAF00C03FAB /* UIImage+Resize.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		B64C56622014953100162915 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				B64C56632014955200162915 /* PiictoAuth.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		B64C566B2014961800162915 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				B64C566C201496D900162915 /* PiictoStorage.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		B64C5670201497F500162915 /* FRDB */ = {
+			isa = PBXGroup;
+			children = (
+				B64C56792014985300162915 /* Entity */,
+				B64C56A6201500B100162915 /* ExchangePhotosDao.swift */,
+				B64C56712014981900162915 /* PhotosDao.swift */,
+				B64C56752014983900162915 /* UsersDao.swift */,
+			);
+			path = FRDB;
+			sourceTree = "<group>";
+		};
+		B64C56792014985300162915 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				B64C56952014EB9B00162915 /* EntityManager.swift */,
+				B64C567E2014998600162915 /* ExchangePhotos.swift */,
+				B64C568220149A1000162915 /* Photos.swift */,
+				B64C567A2014986E00162915 /* Users.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		B64C568620149CA500162915 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				B6DC382E201E009C00873972 /* InitialImageAPI */,
+				B64C56622014953100162915 /* Auth */,
+				B64C5670201497F500162915 /* FRDB */,
+				B64C566B2014961800162915 /* Storage */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		B64C568720149CBA00162915 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				B64C568820149CEB00162915 /* LocationManager.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		B64C568E2014A96900162915 /* Dev */ = {
+			isa = PBXGroup;
+			children = (
+				B6A80432201DEEF300988FA1 /* Piicto-Dev.entitlements */,
+				B64C568C2014A4B600162915 /* GoogleService-Info.plist */,
+			);
+			path = Dev;
+			sourceTree = "<group>";
+		};
+		B64C568F2014A96E00162915 /* Staging */ = {
+			isa = PBXGroup;
+			children = (
+				B6A80431201DD90000988FA1 /* Piicto-Staging.entitlements */,
+				B64C56602014912B00162915 /* GoogleService-Info-Staging.plist */,
+			);
+			path = Staging;
+			sourceTree = "<group>";
+		};
+		B64C56902014E13500162915 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B64C56912014E15D00162915 /* MainViewController+UIImagePickerControllerDelegate.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B64C56A12014EF0200162915 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B60351FC201A43FD00D74806 /* DefaultUser */,
+				B64C56A22014EF1900162915 /* ReverseGeocoding.swift */,
+				B67747A82017949300106674 /* PhotoFetchAssets.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B64C56AE2016F78F00162915 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				B64C56AF2016F7A600162915 /* SendModalViewController.swift */,
+				B64C56B32016F7B200162915 /* SendModalViewController.storyboard */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		B64C56B720170FB800162915 /* Send */ = {
+			isa = PBXGroup;
+			children = (
+				B64C56B820170FD000162915 /* ImageSlideOutTransition.swift */,
+				B64C56BC201725D500162915 /* Modal */,
+			);
+			path = Send;
+			sourceTree = "<group>";
+		};
+		B64C56BC201725D500162915 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				B64C56BD201725FF00162915 /* SendModalViewStatusBar.swift */,
+				B68BCD70201F29D300E6CEED /* LandingPointCalculator.swift */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		B677479A20177E5900106674 /* OSS */ = {
+			isa = PBXGroup;
+			children = (
+				B677479B20177E9500106674 /* SVProgressHUD+Piicto.swift */,
+			);
+			path = OSS;
+			sourceTree = "<group>";
+		};
+		B677479F2017858300106674 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				B67747A02017859800106674 /* CameraViewController.swift */,
+				B67747A4201786C800106674 /* CameraViewController.storyboard */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		B6DC382E201E009C00873972 /* InitialImageAPI */ = {
+			isa = PBXGroup;
+			children = (
+				B6DC382F201E00B300873972 /* InitialImageAPIParamsBuilder.swift */,
+				B6DC3833201E020F00873972 /* InitialImageAPIResponse.swift */,
+				B6DC3837201E02BE00873972 /* InitialImageAPI.swift */,
+			);
+			path = InitialImageAPI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B638C4612000A64F001DD3E0 /* Piicto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B638C47F2000A650001DD3E0 /* Build configuration list for PBXNativeTarget "Piicto" */;
+			buildPhases = (
+				23C753E49984384B0B7061C3 /* [CP] Check Pods Manifest.lock */,
+				B638C45E2000A64F001DD3E0 /* Sources */,
+				B638C45F2000A64F001DD3E0 /* Frameworks */,
+				B638C4602000A64F001DD3E0 /* Resources */,
+				B638C4852000AE51001DD3E0 /* SwiftLint */,
+				B638C4892000FE1A001DD3E0 /* Carthage */,
+				AE9F02F3E3212A2C897F4FD1 /* [CP] Embed Pods Frameworks */,
+				C5A5BAE0CEA043107B83A51B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Piicto;
+			productName = PictCatch;
+			productReference = B638C4622000A64F001DD3E0 /* Piicto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B638C4752000A650001DD3E0 /* PiictoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B638C4822000A650001DD3E0 /* Build configuration list for PBXNativeTarget "PiictoTests" */;
+			buildPhases = (
+				84787373C4017CA368E3597A /* [CP] Check Pods Manifest.lock */,
+				B638C4722000A650001DD3E0 /* Sources */,
+				B638C4732000A650001DD3E0 /* Frameworks */,
+				B638C4742000A650001DD3E0 /* Resources */,
+				E51677D6F8B1D19043142AEA /* [CP] Embed Pods Frameworks */,
+				78BDA9549D39C3D4C46370E2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B638C4782000A650001DD3E0 /* PBXTargetDependency */,
+			);
+			name = PiictoTests;
+			productName = PictCatchTests;
+			productReference = B638C4762000A650001DD3E0 /* PiictoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B6FEDF3D20144773006F9521 /* Piicto-Dev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6FEDF6A20144773006F9521 /* Build configuration list for PBXNativeTarget "Piicto-Dev" */;
+			buildPhases = (
+				B6FEDF3E20144773006F9521 /* [CP] Check Pods Manifest.lock */,
+				B6FEDF3F20144773006F9521 /* Sources */,
+				B6FEDF5220144773006F9521 /* Frameworks */,
+				B6FEDF5720144773006F9521 /* Resources */,
+				B6FEDF6620144773006F9521 /* SwiftLint */,
+				B6FEDF6720144773006F9521 /* Carthage */,
+				B6FEDF6820144773006F9521 /* [CP] Embed Pods Frameworks */,
+				B6FEDF6920144773006F9521 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Piicto-Dev";
+			productName = PictCatch;
+			productReference = B6FEDF6D20144773006F9521 /* Piicto-Dev.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B6FEDF7320148759006F9521 /* Piicto-Staging */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6FEDFA020148759006F9521 /* Build configuration list for PBXNativeTarget "Piicto-Staging" */;
+			buildPhases = (
+				B6FEDF7420148759006F9521 /* [CP] Check Pods Manifest.lock */,
+				B6FEDF7520148759006F9521 /* Sources */,
+				B6FEDF8820148759006F9521 /* Frameworks */,
+				B6FEDF8D20148759006F9521 /* Resources */,
+				B6FEDF9C20148759006F9521 /* SwiftLint */,
+				B6FEDF9D20148759006F9521 /* Carthage */,
+				B6FEDF9E20148759006F9521 /* [CP] Embed Pods Frameworks */,
+				B6FEDF9F20148759006F9521 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Piicto-Staging";
+			productName = PictCatch;
+			productReference = B6FEDFA320148759006F9521 /* Piicto-Staging.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B638C45A2000A64F001DD3E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "SmartTech Ventures Inc";
+				TargetAttributes = {
+					B638C4612000A64F001DD3E0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					B638C4752000A650001DD3E0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+						TestTargetID = B638C4612000A64F001DD3E0;
+					};
+					B6FEDF3D20144773006F9521 = {
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					B6FEDF7320148759006F9521 = {
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = B638C45D2000A64F001DD3E0 /* Build configuration list for PBXProject "Piicto" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B638C4592000A64F001DD3E0;
+			productRefGroup = B638C4632000A64F001DD3E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B638C4612000A64F001DD3E0 /* Piicto */,
+				B6FEDF3D20144773006F9521 /* Piicto-Dev */,
+				B6FEDF7320148759006F9521 /* Piicto-Staging */,
+				B638C4752000A650001DD3E0 /* PiictoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B638C4602000A64F001DD3E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B638C4C02001DDCE001DD3E0 /* image2.jpg in Resources */,
+				B61128AA200FC27C00D45515 /* SendViewController.storyboard in Resources */,
+				B61AC2C9201DA9240072D299 /* NewSendViewController.storyboard in Resources */,
+				B698A93D201F57C300C03FAB /* LibraryViewController.storyboard in Resources */,
+				B638C4B62001DA71001DD3E0 /* TalkingHistory.plist in Resources */,
+				B638C4BF2001DDCE001DD3E0 /* image3.jpg in Resources */,
+				B638C4A3200122E3001DD3E0 /* SplashViewController.storyboard in Resources */,
+				B638C4CC200354F1001DD3E0 /* HorizontalPageViewController.storyboard in Resources */,
+				B64C56B42016F7B200162915 /* SendModalViewController.storyboard in Resources */,
+				B638C4702000A650001DD3E0 /* LaunchScreen.storyboard in Resources */,
+				B638C4BE2001DDCE001DD3E0 /* image0.jpg in Resources */,
+				B638C49620010DA3001DD3E0 /* MainViewController.storyboard in Resources */,
+				B638C4BC2001DDCE001DD3E0 /* image4.jpg in Resources */,
+				B6079A07200B773E003224A5 /* Localizable.strings in Resources */,
+				455D4613201A4BA400453B5F /* InstagramAuthViewController.storyboard in Resources */,
+				45A12BA3201C85B100419061 /* ProfilePageViewController.storyboard in Resources */,
+				B638C4BD2001DDCE001DD3E0 /* image1.jpg in Resources */,
+				45A12BEA201D8B8400419061 /* InfomationPageViewController.storyboard in Resources */,
+				B638C46D2000A650001DD3E0 /* Assets.xcassets in Resources */,
+				B67747A5201786C800106674 /* CameraViewController.storyboard in Resources */,
+				B638C4AA2001CCFA001DD3E0 /* TalkingHistoryCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B638C4742000A650001DD3E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6FEDF5720144773006F9521 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45A12BEB201D9C9500419061 /* InfomationPageViewController.storyboard in Resources */,
+				B61AC2CA201DA9240072D299 /* NewSendViewController.storyboard in Resources */,
+				45A12BA7201C8D7900419061 /* ProfilePageViewController.storyboard in Resources */,
+				455D4617201A4BD000453B5F /* InstagramAuthViewController.storyboard in Resources */,
+				B6FEDF5820144773006F9521 /* image2.jpg in Resources */,
+				B6FEDF5920144773006F9521 /* SendViewController.storyboard in Resources */,
+				B6FEDF5A20144773006F9521 /* TalkingHistory.plist in Resources */,
+				B6FEDF5B20144773006F9521 /* image3.jpg in Resources */,
+				B6FEDF5C20144773006F9521 /* SplashViewController.storyboard in Resources */,
+				B6FEDF5D20144773006F9521 /* HorizontalPageViewController.storyboard in Resources */,
+				B698A93E201F57C300C03FAB /* LibraryViewController.storyboard in Resources */,
+				B6FEDF5E20144773006F9521 /* LaunchScreen.storyboard in Resources */,
+				B6FEDF5F20144773006F9521 /* image0.jpg in Resources */,
+				B6FEDF6020144773006F9521 /* MainViewController.storyboard in Resources */,
+				B6FEDF6120144773006F9521 /* image4.jpg in Resources */,
+				B64C568D2014A4B600162915 /* GoogleService-Info.plist in Resources */,
+				B64C56B52016F7B200162915 /* SendModalViewController.storyboard in Resources */,
+				B6FEDF6220144773006F9521 /* Localizable.strings in Resources */,
+				B6FEDF6320144773006F9521 /* image1.jpg in Resources */,
+				B6FEDF6420144773006F9521 /* Assets.xcassets in Resources */,
+				B6FEDF6520144773006F9521 /* TalkingHistoryCell.xib in Resources */,
+				B67747A6201786C800106674 /* CameraViewController.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6FEDF8D20148759006F9521 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B698A955201FB2A400C03FAB /* ProfilePageViewController.storyboard in Resources */,
+				45A12BEC201D9CA000419061 /* InfomationPageViewController.storyboard in Resources */,
+				B6FEDF8E20148759006F9521 /* image2.jpg in Resources */,
+				B6FEDF8F20148759006F9521 /* SendViewController.storyboard in Resources */,
+				B61AC2CB201DA9240072D299 /* NewSendViewController.storyboard in Resources */,
+				B64C56612014912C00162915 /* GoogleService-Info-Staging.plist in Resources */,
+				B6FEDF9020148759006F9521 /* TalkingHistory.plist in Resources */,
+				B6FEDF9120148759006F9521 /* image3.jpg in Resources */,
+				B6FEDF9220148759006F9521 /* SplashViewController.storyboard in Resources */,
+				B6FEDF9320148759006F9521 /* HorizontalPageViewController.storyboard in Resources */,
+				B6FEDF9420148759006F9521 /* LaunchScreen.storyboard in Resources */,
+				B6FEDF9520148759006F9521 /* image0.jpg in Resources */,
+				B6FEDF9620148759006F9521 /* MainViewController.storyboard in Resources */,
+				B6FEDF9720148759006F9521 /* image4.jpg in Resources */,
+				B698A93F201F57C300C03FAB /* LibraryViewController.storyboard in Resources */,
+				B618E61B201A8247006E8EBF /* InstagramAuthViewController.storyboard in Resources */,
+				B64C56B62016F7B200162915 /* SendModalViewController.storyboard in Resources */,
+				B6FEDF9820148759006F9521 /* Localizable.strings in Resources */,
+				B6FEDF9920148759006F9521 /* image1.jpg in Resources */,
+				B6FEDF9A20148759006F9521 /* Assets.xcassets in Resources */,
+				B6FEDF9B20148759006F9521 /* TalkingHistoryCell.xib in Resources */,
+				B67747A7201786C800106674 /* CameraViewController.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		23C753E49984384B0B7061C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Piicto-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78BDA9549D39C3D4C46370E2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PiictoTests/Pods-PiictoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84787373C4017CA368E3597A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PiictoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE9F02F3E3212A2C897F4FD1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Piicto/Pods-Piicto-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookLogin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Piicto/Pods-Piicto-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B638C4852000AE51001DD3E0 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"SwiftLint does not exist, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+		B638C4892000FE1A001DD3E0 /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/EAIntroView.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/EARestrictedScrollView.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Reachability.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Kingfisher.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SVProgressHUD.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftyCam.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RSKImageCropper.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ObjectMapper.framework",
+			);
+			name = Carthage;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		B6FEDF3E20144773006F9521 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Piicto-Dev-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6FEDF6620144773006F9521 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"SwiftLint does not exist, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+		B6FEDF6720144773006F9521 /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/EAIntroView.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/EARestrictedScrollView.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Reachability.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Kingfisher.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SVProgressHUD.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftyCam.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RSKImageCropper.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ObjectMapper.framework",
+			);
+			name = Carthage;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		B6FEDF6820144773006F9521 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Piicto-Dev/Pods-Piicto-Dev-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookLogin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Piicto-Dev/Pods-Piicto-Dev-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6FEDF6920144773006F9521 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Piicto-Dev/Pods-Piicto-Dev-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6FEDF7420148759006F9521 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Piicto-Staging-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6FEDF9C20148759006F9521 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"SwiftLint does not exist, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+		B6FEDF9D20148759006F9521 /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/EAIntroView.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/EARestrictedScrollView.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Reachability.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Kingfisher.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SVProgressHUD.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftyCam.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RSKImageCropper.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ObjectMapper.framework",
+			);
+			name = Carthage;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		B6FEDF9E20148759006F9521 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Piicto-Staging/Pods-Piicto-Staging-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookLogin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Piicto-Staging/Pods-Piicto-Staging-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6FEDF9F20148759006F9521 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Piicto-Staging/Pods-Piicto-Staging-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5A5BAE0CEA043107B83A51B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Piicto/Pods-Piicto-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E51677D6F8B1D19043142AEA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PiictoTests/Pods-PiictoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B638C45E2000A64F001DD3E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6079A01200B6AC1003224A5 /* PiictoNavigationController.swift in Sources */,
+				B64C56B920170FD000162915 /* ImageSlideOutTransition.swift in Sources */,
+				B638C49E2001165F001DD3E0 /* IntroPageProvider.swift in Sources */,
+				B64C56762014983900162915 /* UsersDao.swift in Sources */,
+				B64C56BE201725FF00162915 /* SendModalViewStatusBar.swift in Sources */,
+				B61AC2C5201DA9190072D299 /* NewSendViewController.swift in Sources */,
+				455D460B201A098800453B5F /* UIView+Animation.swift in Sources */,
+				B61128A8200FC27400D45515 /* SendViewController.swift in Sources */,
+				B698A94D201F57F400C03FAB /* Alert.swift in Sources */,
+				B698A946201F57E400C03FAB /* LibraryViewProvider.swift in Sources */,
+				B64C56722014981900162915 /* PhotosDao.swift in Sources */,
+				B6079A05200B730B003224A5 /* NetworkConnection.swift in Sources */,
+				B638C4992001110A001DD3E0 /* AppLaunch.swift in Sources */,
+				B6DC3830201E00B300873972 /* InitialImageAPIParamsBuilder.swift in Sources */,
+				459EBB242022B81D00EC4437 /* InstagramAPIResponse.swift in Sources */,
+				B64C56922014E15D00162915 /* MainViewController+UIImagePickerControllerDelegate.swift in Sources */,
+				B6079A0F200BA69E003224A5 /* UViewController+Navigation.swift in Sources */,
+				B67747A92017949300106674 /* PhotoFetchAssets.swift in Sources */,
+				459EBB202022B80700EC4437 /* InstagramAPI.swift in Sources */,
+				B638C4B32001D506001DD3E0 /* TalkingHistory.swift in Sources */,
+				B638C4662000A650001DD3E0 /* AppDelegate.swift in Sources */,
+				B64C568920149CEB00162915 /* LocationManager.swift in Sources */,
+				B638C4A1200122DB001DD3E0 /* SplashViewController.swift in Sources */,
+				B698A951201F8EAF00C03FAB /* UIImage+Resize.swift in Sources */,
+				455D4615201A4BB800453B5F /* InstagramAuthViewController.swift in Sources */,
+				B60351FE201A446B00D74806 /* CommunicateDefaultUser.swift in Sources */,
+				B698A949201F57E400C03FAB /* LibraryViewCell.swift in Sources */,
+				45A12BA5201C85C500419061 /* ProfilePageViewController.swift in Sources */,
+				B6DC3827201DFF9F00873972 /* APIClient.swift in Sources */,
+				B64C56642014955200162915 /* PiictoAuth.swift in Sources */,
+				B64C56B02016F7A600162915 /* SendModalViewController.swift in Sources */,
+				B67747A12017859800106674 /* CameraViewController.swift in Sources */,
+				B68BCD71201F29D300E6CEED /* LandingPointCalculator.swift in Sources */,
+				B64C56682014958A00162915 /* UserDefaultsHelper.swift in Sources */,
+				B61B73BD201C85EF00CBE5CA /* UIView+Vibrated.swift in Sources */,
+				B638C4C8200352E0001DD3E0 /* UIStoryboard+Instance.swift in Sources */,
+				B638C4AF2001D39D001DD3E0 /* TalkingHistoryProvider.swift in Sources */,
+				B638C4A62001CA43001DD3E0 /* TalkingHistoryCollectionViewFlowLayout.swift in Sources */,
+				B64C567F2014998600162915 /* ExchangePhotos.swift in Sources */,
+				45A12BE8201D8B7800419061 /* InfomationPageViewController.swift in Sources */,
+				B6DC382B201DFFD000873972 /* Router.swift in Sources */,
+				B6DC3834201E020F00873972 /* InitialImageAPIResponse.swift in Sources */,
+				B64C56AB20161BF000162915 /* Collection+Safe.swift in Sources */,
+				B677479C20177E9500106674 /* SVProgressHUD+Piicto.swift in Sources */,
+				B698A940201F57C300C03FAB /* LibraryViewController.swift in Sources */,
+				B6DC3838201E02BE00873972 /* InitialImageAPI.swift in Sources */,
+				B64C567B2014986E00162915 /* Users.swift in Sources */,
+				B64C566D201496D900162915 /* PiictoStorage.swift in Sources */,
+				B6079A09200B7821003224A5 /* String+Localized.swift in Sources */,
+				B64C56962014EB9B00162915 /* EntityManager.swift in Sources */,
+				B64C568320149A1000162915 /* Photos.swift in Sources */,
+				455D460F201A45A200453B5F /* UerInfomation.swift in Sources */,
+				B638C49420010D7D001DD3E0 /* MainViewController.swift in Sources */,
+				B638C4CA200354E7001DD3E0 /* HorizontalPageViewController.swift in Sources */,
+				B638C4AD2001D17D001DD3E0 /* NSObject+ClassName.swift in Sources */,
+				B64C56A32014EF1900162915 /* ReverseGeocoding.swift in Sources */,
+				B64C56A7201500B100162915 /* ExchangePhotosDao.swift in Sources */,
+				B638C4A92001CCFA001DD3E0 /* TalkingHistoryCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B638C4722000A650001DD3E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6FEDF3F20144773006F9521 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45A12BF0201D9D1D00419061 /* InfomationPageViewController.swift in Sources */,
+				45A12BA6201C8D6B00419061 /* ProfilePageViewController.swift in Sources */,
+				455D4616201A4BC100453B5F /* InstagramAuthViewController.swift in Sources */,
+				455D4610201A460700453B5F /* UerInfomation.swift in Sources */,
+				455D460C201A0A0800453B5F /* UIView+Animation.swift in Sources */,
+				B6FEDF4020144773006F9521 /* PiictoNavigationController.swift in Sources */,
+				B61AC2C6201DA9190072D299 /* NewSendViewController.swift in Sources */,
+				B64C56BA20170FD000162915 /* ImageSlideOutTransition.swift in Sources */,
+				B698A94E201F57F400C03FAB /* Alert.swift in Sources */,
+				B698A947201F57E400C03FAB /* LibraryViewProvider.swift in Sources */,
+				B6FEDF4120144773006F9521 /* IntroPageProvider.swift in Sources */,
+				B64C56772014983900162915 /* UsersDao.swift in Sources */,
+				B64C56BF201725FF00162915 /* SendModalViewStatusBar.swift in Sources */,
+				B6DC3831201E00B300873972 /* InitialImageAPIParamsBuilder.swift in Sources */,
+				459EBB252022B81D00EC4437 /* InstagramAPIResponse.swift in Sources */,
+				B6FEDF4220144773006F9521 /* SendViewController.swift in Sources */,
+				B64C56732014981900162915 /* PhotosDao.swift in Sources */,
+				B6FEDF4320144773006F9521 /* NetworkConnection.swift in Sources */,
+				459EBB212022B80700EC4437 /* InstagramAPI.swift in Sources */,
+				B6FEDF4420144773006F9521 /* AppLaunch.swift in Sources */,
+				B64C56932014E15D00162915 /* MainViewController+UIImagePickerControllerDelegate.swift in Sources */,
+				B6FEDF4520144773006F9521 /* UViewController+Navigation.swift in Sources */,
+				B67747AA2017949300106674 /* PhotoFetchAssets.swift in Sources */,
+				B698A952201F8EAF00C03FAB /* UIImage+Resize.swift in Sources */,
+				B6FEDF4620144773006F9521 /* TalkingHistory.swift in Sources */,
+				B6FEDF4720144773006F9521 /* AppDelegate.swift in Sources */,
+				B698A94A201F57E400C03FAB /* LibraryViewCell.swift in Sources */,
+				B64C568A20149CEB00162915 /* LocationManager.swift in Sources */,
+				B6DC3828201DFF9F00873972 /* APIClient.swift in Sources */,
+				B6FEDF4820144773006F9521 /* SplashViewController.swift in Sources */,
+				B60351FF201A446B00D74806 /* CommunicateDefaultUser.swift in Sources */,
+				B64C56652014956400162915 /* PiictoAuth.swift in Sources */,
+				B68BCD72201F29D300E6CEED /* LandingPointCalculator.swift in Sources */,
+				B64C56B12016F7A600162915 /* SendModalViewController.swift in Sources */,
+				B67747A22017859800106674 /* CameraViewController.swift in Sources */,
+				B61B73BE201C85EF00CBE5CA /* UIView+Vibrated.swift in Sources */,
+				B64C56692014958A00162915 /* UserDefaultsHelper.swift in Sources */,
+				B6FEDF4920144773006F9521 /* UIStoryboard+Instance.swift in Sources */,
+				B6FEDF4A20144773006F9521 /* TalkingHistoryProvider.swift in Sources */,
+				B6FEDF4B20144773006F9521 /* TalkingHistoryCollectionViewFlowLayout.swift in Sources */,
+				B6DC382C201DFFD000873972 /* Router.swift in Sources */,
+				B6DC3835201E020F00873972 /* InitialImageAPIResponse.swift in Sources */,
+				B64C56802014998600162915 /* ExchangePhotos.swift in Sources */,
+				B64C56AC20161BF000162915 /* Collection+Safe.swift in Sources */,
+				B698A941201F57C300C03FAB /* LibraryViewController.swift in Sources */,
+				B6DC3839201E02BE00873972 /* InitialImageAPI.swift in Sources */,
+				B677479D20177E9500106674 /* SVProgressHUD+Piicto.swift in Sources */,
+				B64C567C2014986E00162915 /* Users.swift in Sources */,
+				B64C566E201496D900162915 /* PiictoStorage.swift in Sources */,
+				B6FEDF4C20144773006F9521 /* String+Localized.swift in Sources */,
+				B64C56972014EB9B00162915 /* EntityManager.swift in Sources */,
+				B64C568420149A1000162915 /* Photos.swift in Sources */,
+				B6FEDF4D20144773006F9521 /* MainViewController.swift in Sources */,
+				B6FEDF4F20144773006F9521 /* HorizontalPageViewController.swift in Sources */,
+				B6FEDF5020144773006F9521 /* NSObject+ClassName.swift in Sources */,
+				B64C56A42014EF1900162915 /* ReverseGeocoding.swift in Sources */,
+				B64C56A8201500B100162915 /* ExchangePhotosDao.swift in Sources */,
+				B6FEDF5120144773006F9521 /* TalkingHistoryCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6FEDF7520148759006F9521 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B698A954201FB29800C03FAB /* ProfilePageViewController.swift in Sources */,
+				45A12BEE201D9CB300419061 /* InfomationPageViewController.swift in Sources */,
+				B6FEDF7620148759006F9521 /* PiictoNavigationController.swift in Sources */,
+				B64C56BB20170FD000162915 /* ImageSlideOutTransition.swift in Sources */,
+				B6FEDF7720148759006F9521 /* IntroPageProvider.swift in Sources */,
+				B64C56782014983900162915 /* UsersDao.swift in Sources */,
+				B698A94F201F57F400C03FAB /* Alert.swift in Sources */,
+				B64C56C0201725FF00162915 /* SendModalViewStatusBar.swift in Sources */,
+				B698A942201F57C300C03FAB /* LibraryViewController.swift in Sources */,
+				B6FEDF7820148759006F9521 /* SendViewController.swift in Sources */,
+				B64C56742014981900162915 /* PhotosDao.swift in Sources */,
+				B6FEDF7920148759006F9521 /* NetworkConnection.swift in Sources */,
+				B6FEDF7A20148759006F9521 /* AppLaunch.swift in Sources */,
+				B64C56942014E15D00162915 /* MainViewController+UIImagePickerControllerDelegate.swift in Sources */,
+				459EBB262022B81D00EC4437 /* InstagramAPIResponse.swift in Sources */,
+				B698A953201F8EAF00C03FAB /* UIImage+Resize.swift in Sources */,
+				B6FEDF7B20148759006F9521 /* UViewController+Navigation.swift in Sources */,
+				B67747AB2017949300106674 /* PhotoFetchAssets.swift in Sources */,
+				459EBB222022B80700EC4437 /* InstagramAPI.swift in Sources */,
+				B6DC3836201E020F00873972 /* InitialImageAPIResponse.swift in Sources */,
+				B6FEDF7C20148759006F9521 /* TalkingHistory.swift in Sources */,
+				B698A948201F57E400C03FAB /* LibraryViewProvider.swift in Sources */,
+				B6FEDF7D20148759006F9521 /* AppDelegate.swift in Sources */,
+				B64C568B20149CEB00162915 /* LocationManager.swift in Sources */,
+				B6FEDF7E20148759006F9521 /* SplashViewController.swift in Sources */,
+				B6035200201A446B00D74806 /* CommunicateDefaultUser.swift in Sources */,
+				B618E61C201A824C006E8EBF /* InstagramAuthViewController.swift in Sources */,
+				B64C56662014956500162915 /* PiictoAuth.swift in Sources */,
+				B64C56B22016F7A600162915 /* SendModalViewController.swift in Sources */,
+				B67747A32017859800106674 /* CameraViewController.swift in Sources */,
+				B6DC3829201DFF9F00873972 /* APIClient.swift in Sources */,
+				B618E61D201A826A006E8EBF /* UerInfomation.swift in Sources */,
+				B64C566A2014958A00162915 /* UserDefaultsHelper.swift in Sources */,
+				B61AC2C7201DA9190072D299 /* NewSendViewController.swift in Sources */,
+				B61B73BF201C85EF00CBE5CA /* UIView+Vibrated.swift in Sources */,
+				B6FEDF7F20148759006F9521 /* UIStoryboard+Instance.swift in Sources */,
+				B6DC3832201E00B300873972 /* InitialImageAPIParamsBuilder.swift in Sources */,
+				B6FEDF8020148759006F9521 /* TalkingHistoryProvider.swift in Sources */,
+				B6FEDF8120148759006F9521 /* TalkingHistoryCollectionViewFlowLayout.swift in Sources */,
+				B64C56812014998600162915 /* ExchangePhotos.swift in Sources */,
+				B64C56AD20161BF000162915 /* Collection+Safe.swift in Sources */,
+				B677479E20177E9500106674 /* SVProgressHUD+Piicto.swift in Sources */,
+				B64C567D2014986E00162915 /* Users.swift in Sources */,
+				B64C566F201496D900162915 /* PiictoStorage.swift in Sources */,
+				B618E61A201A8206006E8EBF /* UIView+Animation.swift in Sources */,
+				B6FEDF8220148759006F9521 /* String+Localized.swift in Sources */,
+				B64C56982014EB9B00162915 /* EntityManager.swift in Sources */,
+				B6DC382D201DFFD000873972 /* Router.swift in Sources */,
+				B64C568520149A1000162915 /* Photos.swift in Sources */,
+				B68BCD73201F29D300E6CEED /* LandingPointCalculator.swift in Sources */,
+				B6FEDF8320148759006F9521 /* MainViewController.swift in Sources */,
+				B6FEDF8520148759006F9521 /* HorizontalPageViewController.swift in Sources */,
+				B698A94B201F57E400C03FAB /* LibraryViewCell.swift in Sources */,
+				B6FEDF8620148759006F9521 /* NSObject+ClassName.swift in Sources */,
+				B6DC383A201E02BE00873972 /* InitialImageAPI.swift in Sources */,
+				B64C56A52014EF1900162915 /* ReverseGeocoding.swift in Sources */,
+				B64C56A9201500B100162915 /* ExchangePhotosDao.swift in Sources */,
+				B6FEDF8720148759006F9521 /* TalkingHistoryCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B638C4782000A650001DD3E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B638C4612000A64F001DD3E0 /* Piicto */;
+			targetProxy = B638C4772000A650001DD3E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B638C46E2000A650001DD3E0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B638C46F2000A650001DD3E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B638C47D2000A650001DD3E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B638C47E2000A650001DD3E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B638C4802000A650001DD3E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBB78EDE699B37CB9B18B678 /* Pods-Piicto.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = PCCZJUYRT6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Piicto/Others/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.Piicto";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8ed77696-75b6-47c4-a837-b043a46560e7";
+				PROVISIONING_PROFILE_SPECIFIER = "Piicto DevelopmentProfile";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B638C4812000A650001DD3E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80E964B77E27538A049C837C /* Pods-Piicto.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = PCCZJUYRT6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Piicto/Others/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.Piicto";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "95221433-a690-4f1e-9e7e-f7d35e5effdc";
+				PROVISIONING_PROFILE_SPECIFIER = "Piicto AdHocProfile";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		B638C4832000A650001DD3E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7A310862F5F8C559EB8E5C3 /* Pods-PiictoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = PCCZJUYRT6;
+				INFOPLIST_FILE = PiictoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.PictCatchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Piicto.app/Piicto";
+			};
+			name = Debug;
+		};
+		B638C4842000A650001DD3E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6992CE2B4CA3A3C76073D029 /* Pods-PiictoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = PCCZJUYRT6;
+				INFOPLIST_FILE = PiictoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.PictCatchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Piicto.app/Piicto";
+			};
+			name = Release;
+		};
+		B6FEDF6B20144773006F9521 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0A5CE23292642D441EF5E5E /* Pods-Piicto-Dev.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "$(SRCROOT)/Piicto/Others/Dev/Piicto-Dev.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PCCZJUYRT6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Piicto/Others/Info-Dev.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.Piicto-Dev";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG DEVELOPMENT";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B6FEDF6C20144773006F9521 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63802DCC7F93BBD9AE1B8A60 /* Pods-Piicto-Dev.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "$(SRCROOT)/Piicto/Others/Dev/Piicto-Dev.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PCCZJUYRT6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Piicto/Others/Info-Dev.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.Piicto-Dev";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEVELOPMENT;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		B6FEDFA120148759006F9521 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C6F8FD8E9842836D71F007B /* Pods-Piicto-Staging.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "$(SRCROOT)/Piicto/Others/Staging/Piicto-Staging.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = PCCZJUYRT6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Piicto/Others/Info-Staging.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.Piicto-Staging";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "34fc3ad9-0c17-4964-9870-cdcfe9ff3e8f";
+				PROVISIONING_PROFILE_SPECIFIER = "Piicto-Staging AdHocProfile";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG STAGING";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B6FEDFA220148759006F9521 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC971C61D1CF2D3B9E1D56A5 /* Pods-Piicto-Staging.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "$(SRCROOT)/Piicto/Others/Staging/Piicto-Staging.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = PCCZJUYRT6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Piicto/Others/Info-Staging.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.Piicto-Staging";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d202294d-8c9f-4a9b-87bd-a50254a024ed";
+				PROVISIONING_PROFILE_SPECIFIER = "Piicto-Staging AdHocProfile";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = STAGING;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B638C45D2000A64F001DD3E0 /* Build configuration list for PBXProject "Piicto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B638C47D2000A650001DD3E0 /* Debug */,
+				B638C47E2000A650001DD3E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B638C47F2000A650001DD3E0 /* Build configuration list for PBXNativeTarget "Piicto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B638C4802000A650001DD3E0 /* Debug */,
+				B638C4812000A650001DD3E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B638C4822000A650001DD3E0 /* Build configuration list for PBXNativeTarget "PiictoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B638C4832000A650001DD3E0 /* Debug */,
+				B638C4842000A650001DD3E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6FEDF6A20144773006F9521 /* Build configuration list for PBXNativeTarget "Piicto-Dev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6FEDF6B20144773006F9521 /* Debug */,
+				B6FEDF6C20144773006F9521 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6FEDFA020148759006F9521 /* Build configuration list for PBXNativeTarget "Piicto-Staging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6FEDFA120148759006F9521 /* Debug */,
+				B6FEDFA220148759006F9521 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B638C45A2000A64F001DD3E0 /* Project object */;
+}
